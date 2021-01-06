@@ -1,0 +1,265 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.6">
+  <compound refid="class_game_m_a_q_1_1_annotations_1_1_can_be_null_attribute" kind="class"><name>GameMAQ::Annotations::CanBeNullAttribute</name>
+  </compound>
+  <compound refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_circle_sprite" kind="class"><name>GameMAQ::Lib::Components::CircleSprite</name>
+    <member refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_circle_sprite_1acd775136b24066a546c1af461469d7fb" kind="property"><name>Radius</name></member>
+    <member refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_circle_sprite_1acdd6b5195733d62388bbdb85a584b0d5" kind="property"><name>Sides</name></member>
+    <member refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_circle_sprite_1a3856d109f8fc9b2a0403604696d44dee" kind="function"><name>CircleSprite</name></member>
+  </compound>
+  <compound refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_collider" kind="class"><name>GameMAQ::Lib::Components::Collider</name>
+  </compound>
+  <compound refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_collider_3_01_t_01_4" kind="class"><name>GameMAQ::Lib::Components::Collider&lt; T &gt;</name>
+    <member refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_collider_3_01_t_01_4_1a2241e3a8bfc6e77a1d75f9d9e290a128" kind="event"><name>CollideEvent</name></member>
+    <member refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_collider_3_01_t_01_4_1af7c5fe4dfd43b62b0063accfb34642db" kind="event"><name>EnterEvent</name></member>
+    <member refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_collider_3_01_t_01_4_1ac8ed4fe2e2ac9a600cc844ca357a096e" kind="event"><name>ExitEvent</name></member>
+    <member refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_collider_3_01_t_01_4_1a3a9779cc167679237161a7028535c7d6" kind="function"><name>IsColliding</name></member>
+    <member refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_collider_3_01_t_01_4_1abd27573a78f70bb468855e8e86072283" kind="function"><name>OnCollide</name></member>
+    <member refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_collider_3_01_t_01_4_1a17d3b36dc72f874babcdc08564a3fcbd" kind="function"><name>OnEnter</name></member>
+    <member refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_collider_3_01_t_01_4_1affa8e8d895aa642b94e358f181261784" kind="function"><name>OnExit</name></member>
+  </compound>
+  <compound refid="class_game_m_a_q_1_1_lib_1_1_colliders_manager" kind="class"><name>GameMAQ::Lib::CollidersManager</name>
+    <member refid="class_game_m_a_q_1_1_lib_1_1_colliders_manager_1a762faf8214470281e993154f1bb01d5c" kind="variable"><name>_lastState</name></member>
+    <member refid="class_game_m_a_q_1_1_lib_1_1_colliders_manager_1ac7bca2d14dcb20ebc678368f4a7cc569" kind="property"><name>Colliders</name></member>
+    <member refid="class_game_m_a_q_1_1_lib_1_1_colliders_manager_1a2f8bd32fc633fb5fed1ec39aaa0ba349" kind="property"><name>CollidersTouching</name></member>
+    <member refid="class_game_m_a_q_1_1_lib_1_1_colliders_manager_1a15ccda69a46eaba4b97c64b15df15c8d" kind="function"><name>Update</name></member>
+  </compound>
+  <compound refid="class_game_m_a_q_1_1_lib_1_1_component" kind="class"><name>GameMAQ::Lib::Component</name>
+    <member refid="class_game_m_a_q_1_1_lib_1_1_component_1a07c0d337b2397308c910314aa3dd0cb9" kind="property"><name>GameObject</name></member>
+    <member refid="class_game_m_a_q_1_1_lib_1_1_component_1a57b84a728bf31e18a630f6e8ceeb3984" kind="function"><name>Update</name></member>
+    <member refid="class_game_m_a_q_1_1_lib_1_1_component_1ab2bc1bbb03806da98732532067db19c2" kind="function"><name>Draw</name></member>
+    <member refid="class_game_m_a_q_1_1_lib_1_1_component_1a3201308c2577598dbef9f5f237fdc3bf" kind="function"><name>Start</name></member>
+    <member refid="class_game_m_a_q_1_1_lib_1_1_component_1a0bc089df197426e68f8762b80586d0b3" kind="function"><name>Initialize</name></member>
+  </compound>
+  <compound refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_custom_sprite" kind="class"><name>GameMAQ::Lib::Components::CustomSprite</name>
+    <member refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_custom_sprite_1a7faf03d1e4ca9924380c76dd04db254c" kind="property"><name>Drawer</name></member>
+    <member refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_custom_sprite_1a9c20153102764aaf0abae51aec74c10f" kind="function"><name>Draw</name></member>
+  </compound>
+  <compound refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_controls_1_1_follow_mouse" kind="class"><name>GameMAQ::Lib::Components::Controls::FollowMouse</name>
+    <member refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_controls_1_1_follow_mouse_1a295bfca5d901ef80012e6a70c69ef1ff" kind="property"><name>Offset</name></member>
+    <member refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_controls_1_1_follow_mouse_1a0d0430f2574cd44078f76e2b7cf3c18b" kind="function"><name>FollowMouse</name></member>
+    <member refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_controls_1_1_follow_mouse_1a6cb156e4850efe378731e40a380f349e" kind="function"><name>Update</name></member>
+  </compound>
+  <compound refid="class_gravity_game_1_1_game1" kind="class"><name>GravityGame::Game1</name>
+    <member refid="class_gravity_game_1_1_game1_1a9ef05bab09f83576e1c9b598585a4c7a" kind="variable"><name>_graphics</name></member>
+    <member refid="class_gravity_game_1_1_game1_1ad1a15b6d3d4c0f254f15156688d995b1" kind="variable"><name>_spriteBatch</name></member>
+    <member refid="class_gravity_game_1_1_game1_1abd666b1d278ad175f38e3fe4d11b2af5" kind="function"><name>Game1</name></member>
+    <member refid="class_gravity_game_1_1_game1_1a19e29f9259c2d603bfa37973e6b4cd0e" kind="function"><name>Initialize</name></member>
+    <member refid="class_gravity_game_1_1_game1_1a7c87dc822ecc677a305752d49b3d6463" kind="function"><name>LoadContent</name></member>
+    <member refid="class_gravity_game_1_1_game1_1a8ff8d2c8865628c232f29b0b83314d3c" kind="function"><name>Update</name></member>
+    <member refid="class_gravity_game_1_1_game1_1a47e85e605bb6044366e3352d52b22cd3" kind="function"><name>Draw</name></member>
+  </compound>
+  <compound refid="class_game_m_a_q_1_1_game1" kind="class"><name>GameMAQ::Game1</name>
+    <member refid="class_game_m_a_q_1_1_game1_1a0c5bbae12f99bd60581c4eb984dee376" kind="variable"><name>_graphics</name></member>
+    <member refid="class_game_m_a_q_1_1_game1_1a64f602e71b8bb76afea208d7850f7588" kind="variable"><name>_spriteBatch</name></member>
+    <member refid="class_game_m_a_q_1_1_game1_1a5f99d7bdb281933d5059e4ae5c54b650" kind="function"><name>Game1</name></member>
+    <member refid="class_game_m_a_q_1_1_game1_1a82975080716cd25d31d0eb115a0b2a16" kind="function"><name>Initialize</name></member>
+    <member refid="class_game_m_a_q_1_1_game1_1a5d75dbbff1ae72ea5429d75096a33b6f" kind="function"><name>LoadContent</name></member>
+    <member refid="class_game_m_a_q_1_1_game1_1a0be2e3ced7e23e1d2c3c7fdb1b8fa067" kind="function"><name>Update</name></member>
+    <member refid="class_game_m_a_q_1_1_game1_1a56ae72cb8cbac693edbd540174151caf" kind="function"><name>Draw</name></member>
+  </compound>
+  <compound refid="class_game_m_a_q_1_1_lib_1_1_game_m_a_q" kind="class"><name>GameMAQ::Lib::GameMAQ</name>
+    <member refid="class_game_m_a_q_1_1_lib_1_1_game_m_a_q_1ad72b03b7cea338701cab667d0bd23022" kind="property"><name>Scene</name></member>
+    <member refid="class_game_m_a_q_1_1_lib_1_1_game_m_a_q_1a36e470e0f806bb8f536dc88c1cc61329" kind="property"><name>Graphics</name></member>
+    <member refid="class_game_m_a_q_1_1_lib_1_1_game_m_a_q_1a77355bcd5990bfd7348cf5aba8579b35" kind="property"><name>BackColor</name></member>
+    <member refid="class_game_m_a_q_1_1_lib_1_1_game_m_a_q_1adb7458ef78ea8109a6fc6a8534430540" kind="property"><name>SpriteBatch</name></member>
+    <member refid="class_game_m_a_q_1_1_lib_1_1_game_m_a_q_1a6451ca9fc63cd78e543b14aa6d5001d0" kind="function"><name>GameMAQ</name></member>
+    <member refid="class_game_m_a_q_1_1_lib_1_1_game_m_a_q_1abfeffcff884fd49f59cd8ccbe0d96821" kind="function"><name>ResizeWindow</name></member>
+    <member refid="class_game_m_a_q_1_1_lib_1_1_game_m_a_q_1aea186fd6718e9f3b266f13714936b1a7" kind="function"><name>LoadContent</name></member>
+    <member refid="class_game_m_a_q_1_1_lib_1_1_game_m_a_q_1aec544033151b76df89dc04067cdbc3f5" kind="function"><name>Initialize</name></member>
+    <member refid="class_game_m_a_q_1_1_lib_1_1_game_m_a_q_1af6fca2e8b681468ec3f5e22df6fe7dd0" kind="function"><name>Draw</name></member>
+    <member refid="class_game_m_a_q_1_1_lib_1_1_game_m_a_q_1a046654edeaf446fc1fdd2437b3b364dd" kind="function"><name>BeginRun</name></member>
+    <member refid="class_game_m_a_q_1_1_lib_1_1_game_m_a_q_1a843fea315db76bdf26ef700f252924f0" kind="function"><name>Update</name></member>
+  </compound>
+  <compound refid="class_game_m_a_q_1_1_lib_1_1_game_object" kind="class"><name>GameMAQ::Lib::GameObject</name>
+    <member refid="class_game_m_a_q_1_1_lib_1_1_game_object_1a7ff00856652729a8680b440672be6829" kind="property"><name>Parent</name></member>
+    <member refid="class_game_m_a_q_1_1_lib_1_1_game_object_1aa4765ceca373c4b104a0a6ae629ac2e5" kind="property"><name>Game</name></member>
+    <member refid="class_game_m_a_q_1_1_lib_1_1_game_object_1a07e27efeb636e921491e67d9f049630a" kind="property"><name>Transform</name></member>
+    <member refid="class_game_m_a_q_1_1_lib_1_1_game_object_1a2b45d5d82dfacc24105f2bde77db87e3" kind="property"><name>Components</name></member>
+    <member refid="class_game_m_a_q_1_1_lib_1_1_game_object_1a2628c76f6cbe4b06a27d87d5f317988c" kind="property"><name>Children</name></member>
+    <member refid="class_game_m_a_q_1_1_lib_1_1_game_object_1a20794961c246691c6d687831c73d0ee1" kind="function"><name>GameObject</name></member>
+    <member refid="class_game_m_a_q_1_1_lib_1_1_game_object_1af919c5aef6c859a8179f6b476dd29f3a" kind="function"><name>GetComponents&lt; T &gt;</name></member>
+    <member refid="class_game_m_a_q_1_1_lib_1_1_game_object_1a9557853a2b8927a8b0e2bc679d564320" kind="function"><name>GetComponentsInTree&lt; T &gt;</name></member>
+    <member refid="class_game_m_a_q_1_1_lib_1_1_game_object_1a4cbb6683e43110b7b595b57dd3170fca" kind="function"><name>Draw</name></member>
+    <member refid="class_game_m_a_q_1_1_lib_1_1_game_object_1a7022f7212019dd235bc6158aa10da016" kind="function"><name>Update</name></member>
+    <member refid="class_game_m_a_q_1_1_lib_1_1_game_object_1af22b2f5c97994f4162bf649a3d6c0434" kind="function"><name>Initialize</name></member>
+    <member refid="class_game_m_a_q_1_1_lib_1_1_game_object_1a6523510f80854ac9d1305f6997b3ab36" kind="function"><name>Start</name></member>
+    <member refid="class_game_m_a_q_1_1_lib_1_1_game_object_1aacc57f2e47d88f78e27db0a2a1b28ece" kind="function"><name>ComponentsOnBeforeAdding</name></member>
+    <member refid="class_game_m_a_q_1_1_lib_1_1_game_object_1a8e4e330351afb800852db4081bd39c97" kind="function"><name>ChildrenOnBeforeAdding</name></member>
+  </compound>
+  <compound refid="interface_game_m_a_q_1_1_lib_1_1_i_drawable" kind="interface"><name>GameMAQ::Lib::IDrawable</name>
+    <member refid="interface_game_m_a_q_1_1_lib_1_1_i_drawable_1ac12fffa8a8961dce4a5758eca74445a8" kind="function"><name>Draw</name></member>
+  </compound>
+  <compound refid="interface_game_m_a_q_1_1_lib_1_1_i_renderable_3_01_t_01_4" kind="interface"><name>GameMAQ::Lib::IRenderable&lt; T &gt;</name>
+  </compound>
+  <compound refid="interface_game_m_a_q_1_1_lib_1_1_i_startable_3_01_t_01_4" kind="interface"><name>GameMAQ::Lib::IStartable&lt; T &gt;</name>
+    <member refid="interface_game_m_a_q_1_1_lib_1_1_i_startable_3_01_t_01_4_1aaa4bd54fdf7e85f8652a2d2660274f0f" kind="function"><name>Initialize</name></member>
+    <member refid="interface_game_m_a_q_1_1_lib_1_1_i_startable_3_01_t_01_4_1a6674f5bca91db0eed779c4db4d4b109c" kind="function"><name>Start</name></member>
+  </compound>
+  <compound refid="class_game_m_a_q_1_1_annotations_1_1_item_can_be_null_attribute" kind="class"><name>GameMAQ::Annotations::ItemCanBeNullAttribute</name>
+  </compound>
+  <compound refid="class_game_m_a_q_1_1_annotations_1_1_item_not_null_attribute" kind="class"><name>GameMAQ::Annotations::ItemNotNullAttribute</name>
+  </compound>
+  <compound refid="interface_game_m_a_q_1_1_lib_1_1_i_updatable" kind="interface"><name>GameMAQ::Lib::IUpdatable</name>
+    <member refid="interface_game_m_a_q_1_1_lib_1_1_i_updatable_1aa4580eff83d3d652e26868693ffe24e4" kind="function"><name>Update</name></member>
+  </compound>
+  <compound refid="class_game_m_a_q_1_1_lib_1_1_utils_1_1_list_m_a_q_3_01_t_01_4" kind="class"><name>GameMAQ::Lib::Utils::ListMAQ&lt; T &gt;</name>
+    <member refid="class_game_m_a_q_1_1_lib_1_1_utils_1_1_list_m_a_q_3_01_t_01_4_1a5ec36e66bbcd3513389302b5ef094392" kind="event"><name>BeforeAdding</name></member>
+    <member refid="class_game_m_a_q_1_1_lib_1_1_utils_1_1_list_m_a_q_3_01_t_01_4_1a32d0e3e1bd3d20890a38bd48b849be51" kind="event"><name>AfterAdding</name></member>
+    <member refid="class_game_m_a_q_1_1_lib_1_1_utils_1_1_list_m_a_q_3_01_t_01_4_1a544339b94cdcc527701936d139145fd2" kind="function"><name>AddHandler</name></member>
+    <member refid="class_game_m_a_q_1_1_lib_1_1_utils_1_1_list_m_a_q_3_01_t_01_4_1a33ba21a5a653c7bf6c06764f4fbc91ac" kind="function"><name>ListMAQ</name></member>
+    <member refid="class_game_m_a_q_1_1_lib_1_1_utils_1_1_list_m_a_q_3_01_t_01_4_1a779631f3990b6d11123d07b0672bed81" kind="function"><name>Add</name></member>
+    <member refid="class_game_m_a_q_1_1_lib_1_1_utils_1_1_list_m_a_q_3_01_t_01_4_1a444f187d0933d5cd2ee4bd8ffb555b40" kind="function"><name>Insert</name></member>
+  </compound>
+  <compound refid="class_game_m_a_q_1_1_annotations_1_1_not_null_attribute" kind="class"><name>GameMAQ::Annotations::NotNullAttribute</name>
+  </compound>
+  <compound refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_primitive_m_a_q_extension" kind="class"><name>GameMAQ::Lib::Components::PrimitiveMAQExtension</name>
+    <member refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_primitive_m_a_q_extension_1a15a5a152add923bec5500a54f94890e1" kind="function"><name>DrawRectangleMAQ</name></member>
+  </compound>
+  <compound refid="class_gravity_game_1_1_program" kind="class"><name>GravityGame::Program</name>
+    <member refid="class_gravity_game_1_1_program_1a9a33470bc534b38404f48f0a1d739236" kind="function"><name>Main</name></member>
+  </compound>
+  <compound refid="class_game_m_a_q_1_1_program" kind="class"><name>GameMAQ::Program</name>
+    <member refid="class_game_m_a_q_1_1_program_1ad8eeaaaf2941b4f08a1e327b42ec94d2" kind="function"><name>Main</name></member>
+    <member refid="class_game_m_a_q_1_1_program_1a4406971624a108b5411d8811b37b31ad" kind="function"><name>Col1OnCollideEvent</name></member>
+  </compound>
+  <compound refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_colliders_1_1_rectangle_collider" kind="class"><name>GameMAQ::Lib::Components::Colliders::RectangleCollider</name>
+    <member refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_colliders_1_1_rectangle_collider_1a27bc5fedb7665e070ea62c1376e75c6e" kind="variable"><name>_display</name></member>
+    <member refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_colliders_1_1_rectangle_collider_1a25409e1c78dc4020494ebd2c819a61e9" kind="property"><name>Size</name></member>
+    <member refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_colliders_1_1_rectangle_collider_1ab825a721544a862303fd2a19c415c052" kind="property"><name>SpriteObject</name></member>
+    <member refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_colliders_1_1_rectangle_collider_1aac745bc6275b62f0a2c0daacaea97258" kind="property"><name>SpriteComponent</name></member>
+    <member refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_colliders_1_1_rectangle_collider_1a14cbe947cb6f6ccae96abe7fb8026c80" kind="property"><name>DisplayDefault</name></member>
+    <member refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_colliders_1_1_rectangle_collider_1aadfc737fef25c98614e31dbdbd621810" kind="property"><name>Display</name></member>
+    <member refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_colliders_1_1_rectangle_collider_1a49431471eef4ecc507f7aef77a419289" kind="function"><name>RectangleCollider</name></member>
+    <member refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_colliders_1_1_rectangle_collider_1ad6f93e162054df32bacccad26738d315" kind="function"><name>Start</name></member>
+    <member refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_colliders_1_1_rectangle_collider_1a713663f0a54f1548bf7a945c3e8b1f23" kind="function"><name>Update</name></member>
+    <member refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_colliders_1_1_rectangle_collider_1a5815b0f305757735c64080423669acff" kind="function"><name>IsColliding</name></member>
+    <member refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_colliders_1_1_rectangle_collider_1a7a271b9f8eb337c5e00b1cd4b1973e8f" kind="function"><name>HandleRectangle</name></member>
+  </compound>
+  <compound refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_rectangle_sprite" kind="class"><name>GameMAQ::Lib::Components::RectangleSprite</name>
+    <member refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_rectangle_sprite_1addca076a9cf67fe20e2cbf9ce3fd012e" kind="property"><name>Size</name></member>
+    <member refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_rectangle_sprite_1a000544135be68b48c6c05cc636c7010f" kind="property"><name>Angle</name></member>
+    <member refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_rectangle_sprite_1a01ff909b2df8b65ede82e38431b20449" kind="property"><name>Origin</name></member>
+    <member refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_rectangle_sprite_1aa2906ee5f9cc9bf0b38e265c5ecc6b90" kind="function"><name>RectangleSprite</name></member>
+    <member refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_rectangle_sprite_1ab3a123610b1e7e76edfe118ef5faac71" kind="function"><name>Start</name></member>
+  </compound>
+  <compound refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_shape_sprite" kind="class"><name>GameMAQ::Lib::Components::ShapeSprite</name>
+    <member refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_shape_sprite_1a4bd02dc9ba0911818f8330eae09e0256" kind="property"><name>BorderColor</name></member>
+    <member refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_shape_sprite_1ab32199e271e25d426cce7807449cf566" kind="property"><name>FillColor</name></member>
+    <member refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_shape_sprite_1ac75a7a886f24c7ae896fe5fe270ce64a" kind="property"><name>Thickness</name></member>
+    <member refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_shape_sprite_1a202bf6044db6b1e1458782b6059ddc0b" kind="function"><name>ShapeSprite</name></member>
+  </compound>
+  <compound refid="class_string_format_method_attribute" kind="class"><name>StringFormatMethodAttribute</name>
+    <member refid="class_string_format_method_attribute_1a93e8904b7dfa6cdd20798a5ae4d3423e" kind="property"><name>FormatParameterName</name></member>
+    <member refid="class_string_format_method_attribute_1a68911e2dabb1b9f238f9605bde469e97" kind="function"><name>StringFormatMethodAttribute</name></member>
+  </compound>
+  <compound refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_transform" kind="class"><name>GameMAQ::Lib::Components::Transform</name>
+    <member refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_transform_1a34920844d426d20f6977160812455a8c" kind="property"><name>RelativePosition</name></member>
+    <member refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_transform_1a2880442df18676474a2f8bdc90fd0fda" kind="property"><name>AbsolutePosition</name></member>
+  </compound>
+  <compound refid="namespace_color" kind="namespace"><name>Color</name>
+  </compound>
+  <compound refid="namespace_game_m_a_q" kind="namespace"><name>GameMAQ</name>
+  </compound>
+  <compound refid="namespace_game_m_a_q_1_1_annotations" kind="namespace"><name>GameMAQ::Annotations</name>
+  </compound>
+  <compound refid="namespace_game_m_a_q_1_1_lib" kind="namespace"><name>GameMAQ::Lib</name>
+  </compound>
+  <compound refid="namespace_game_m_a_q_1_1_lib_1_1_components" kind="namespace"><name>GameMAQ::Lib::Components</name>
+  </compound>
+  <compound refid="namespace_game_m_a_q_1_1_lib_1_1_components_1_1_colliders" kind="namespace"><name>GameMAQ::Lib::Components::Colliders</name>
+  </compound>
+  <compound refid="namespace_game_m_a_q_1_1_lib_1_1_components_1_1_controls" kind="namespace"><name>GameMAQ::Lib::Components::Controls</name>
+  </compound>
+  <compound refid="namespace_game_m_a_q_1_1_lib_1_1_utils" kind="namespace"><name>GameMAQ::Lib::Utils</name>
+  </compound>
+  <compound refid="namespace_gravity_game" kind="namespace"><name>GravityGame</name>
+  </compound>
+  <compound refid="namespace_microsoft_1_1_xna_1_1_framework" kind="namespace"><name>Microsoft::Xna::Framework</name>
+  </compound>
+  <compound refid="namespace_microsoft_1_1_xna_1_1_framework_1_1_graphics" kind="namespace"><name>Microsoft::Xna::Framework::Graphics</name>
+  </compound>
+  <compound refid="namespace_microsoft_1_1_xna_1_1_framework_1_1_input" kind="namespace"><name>Microsoft::Xna::Framework::Input</name>
+  </compound>
+  <compound refid="namespace_system" kind="namespace"><name>System</name>
+  </compound>
+  <compound refid="namespace_system_1_1_collections_1_1_generic" kind="namespace"><name>System::Collections::Generic</name>
+  </compound>
+  <compound refid="namespace_system_1_1_collections_1_1_object_model" kind="namespace"><name>System::Collections::ObjectModel</name>
+  </compound>
+  <compound refid="namespace_system_1_1_drawing" kind="namespace"><name>System::Drawing</name>
+  </compound>
+  <compound refid="namespace_system_1_1_linq" kind="namespace"><name>System::Linq</name>
+  </compound>
+  <compound refid="_annotations_8cs" kind="file"><name>Annotations.cs</name>
+    <member refid="_annotations_8cs_1a710c2378b43f44cd4a9b365c85be5d6c" kind="function"><name>Foo</name></member>
+  </compound>
+  <compound refid="_game_m_a_q_2_game1_8cs" kind="file"><name>Game1.cs</name>
+  </compound>
+  <compound refid="_gravity_game_2_game1_8cs" kind="file"><name>Game1.cs</name>
+  </compound>
+  <compound refid="_component_8cs" kind="file"><name>Component.cs</name>
+  </compound>
+  <compound refid="_collider_8cs" kind="file"><name>Collider.cs</name>
+  </compound>
+  <compound refid="_colliders_manager_8cs" kind="file"><name>CollidersManager.cs</name>
+  </compound>
+  <compound refid="_rectangle_collider_8cs" kind="file"><name>RectangleCollider.cs</name>
+  </compound>
+  <compound refid="_follow_mouse_8cs" kind="file"><name>FollowMouse.cs</name>
+  </compound>
+  <compound refid="_custom_sprite_8cs" kind="file"><name>CustomSprite.cs</name>
+  </compound>
+  <compound refid="_primitive_m_a_q_extension_8cs" kind="file"><name>PrimitiveMAQExtension.cs</name>
+  </compound>
+  <compound refid="_shape_sprite_8cs" kind="file"><name>ShapeSprite.cs</name>
+  </compound>
+  <compound refid="_transform_8cs" kind="file"><name>Transform.cs</name>
+  </compound>
+  <compound refid="_game_m_a_q_8cs" kind="file"><name>GameMAQ.cs</name>
+    <member refid="_game_m_a_q_8cs_1a52e6c51e4b366b94c5ffa816add60e52" kind="typedef"><name>Color</name></member>
+  </compound>
+  <compound refid="_game_object_8cs" kind="file"><name>GameObject.cs</name>
+  </compound>
+  <compound refid="_i_drawable_8cs" kind="file"><name>IDrawable.cs</name>
+  </compound>
+  <compound refid="_i_renderable_8cs" kind="file"><name>IRenderable.cs</name>
+  </compound>
+  <compound refid="_i_startable_8cs" kind="file"><name>IStartable.cs</name>
+  </compound>
+  <compound refid="_i_updatable_8cs" kind="file"><name>IUpdatable.cs</name>
+  </compound>
+  <compound refid="_list_m_a_q_8cs" kind="file"><name>ListMAQ.cs</name>
+  </compound>
+  <compound refid="_notify_property_8cs" kind="file"><name>NotifyProperty.cs</name>
+  </compound>
+  <compound refid="_game_m_a_q_2_program_8cs" kind="file"><name>Program.cs</name>
+    <member refid="_game_m_a_q_2_program_8cs_1a52e6c51e4b366b94c5ffa816add60e52" kind="typedef"><name>Color</name></member>
+  </compound>
+  <compound refid="_gravity_game_2_program_8cs" kind="file"><name>Program.cs</name>
+  </compound>
+  <compound refid="dir_36fad6cf4418e0d0490374e1be8bf792" kind="dir"><name>C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Lib/Components/Colliders</name>
+  </compound>
+  <compound refid="dir_7694072d82d50ebfc02396acebc57dc1" kind="dir"><name>C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Lib/Components</name>
+  </compound>
+  <compound refid="dir_4ee8623d53813dd163b2aa8bbc0d9469" kind="dir"><name>C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Lib/Components/Controls</name>
+  </compound>
+  <compound refid="dir_252dbc1299c9c6cff242896a44448e15" kind="dir"><name>C:/Users/marc-/Desktop</name>
+  </compound>
+  <compound refid="dir_63480b9dae365a4dd9f56ebdd813851b" kind="dir"><name>C:/Users/marc-/Desktop/GameMAQ/GameMAQ</name>
+  </compound>
+  <compound refid="dir_af9b97247923f39ae5078d1291108458" kind="dir"><name>C:/Users/marc-/Desktop/GameMAQ</name>
+  </compound>
+  <compound refid="dir_5b76276cc30d0493c963db317d1e7a98" kind="dir"><name>C:/Users/marc-/Desktop/GameMAQ/GravityGame</name>
+  </compound>
+  <compound refid="dir_6fee13725e5aded959b1a9af18840147" kind="dir"><name>C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Lib</name>
+  </compound>
+  <compound refid="dir_3265ba0fe7e0ff2e7b54994663a81dcb" kind="dir"><name>C:/Users/marc-</name>
+  </compound>
+  <compound refid="dir_6dcfb29e0ae6dd0b393c5824c8c77f68" kind="dir"><name>C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Lib/Components/Sprites</name>
+  </compound>
+  <compound refid="dir_8ceffd4ee35c3518d4e8bdc7e638efe8" kind="dir"><name>C:/Users</name>
+  </compound>
+  <compound refid="dir_3acdd269824147efd7a905705264b6f0" kind="dir"><name>C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Lib/Utils</name>
+  </compound>
+</doxygenindex>

@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Root Type="DevExpress.CodeRush.Foundation.FeatureAdvisor.Options.FeatureAdvisorOptions">
+  <Options Language="Neutral">
+    <Providers>
+      <Item Id="{8cff2e9f-3196-47f8-8222-be74fabda488}">
+        <AdvisorName>Improve performance with Ngen</AdvisorName>
+        <Enabled>True</Enabled>
+      </Item>
+      <Item Id="{52b0089b-7bd4-44c3-8ed2-31a778f18f40}">
+        <AdvisorName>Clipboard History</AdvisorName>
+        <Enabled>True</Enabled>
+      </Item>
+      <Item Id="{4db8ac07-d9b1-4788-87ba-45c55bf92d08}">
+        <AdvisorName>Code Cleanup</AdvisorName>
+        <Enabled>True</Enabled>
+      </Item>
+      <Item Id="{3a41b9fc-0a03-4a75-8d2c-7b88d66e6631}">
+        <AdvisorName>Comment Selection</AdvisorName>
+        <Enabled>True</Enabled>
+      </Item>
+      <Item Id="{cae8fbd9-4c5c-41b1-af2e-fe64b158175f}">
+        <AdvisorName>Smart Duplicate Line</AdvisorName>
+        <Enabled>True</Enabled>
+      </Item>
+      <Item Id="{a480fa1f-4393-4eed-9296-593958adc699}">
+        <AdvisorName>Template: Case statement declaration</AdvisorName>
+        <Enabled>True</Enabled>
+      </Item>
+      <Item Id="{f1151109-a820-4281-aca0-635ccb8e01b2}">
+        <AdvisorName>Template: Type declaration</AdvisorName>
+        <Enabled>True</Enabled>
+      </Item>
+      <Item Id="{66fe3d05-3a5f-42c3-bc99-c007330bc9c9}">
+        <AdvisorName>Template: Field declaration</AdvisorName>
+        <Enabled>True</Enabled>
+      </Item>
+      <Item Id="{158b582e-09dd-4d6e-a8e3-22898f975020}">
+        <AdvisorName>Template: For statement declaration</AdvisorName>
+        <Enabled>True</Enabled>
+      </Item>
+      <Item Id="{27e8eb53-9890-45da-859e-05373608b3f8}">
+        <AdvisorName>Template: Method declaration</AdvisorName>
+        <Enabled>True</Enabled>
+      </Item>
+      <Item Id="{69c12586-6e75-42f8-bfdd-63a28067e33c}">
+        <AdvisorName>Template: Property declaration</AdvisorName>
+        <Enabled>True</Enabled>
+      </Item>
+      <Item Id="{75de1572-4e93-48dd-a97b-03ba6dcde206}">
+        <AdvisorName>Template: Switch\Select statement declaration</AdvisorName>
+        <Enabled>True</Enabled>
+      </Item>
+      <Item Id="{aec50066-61d5-4082-92ec-e592a11c1a3e}">
+        <AdvisorName>Template: Using statement declaration</AdvisorName>
+        <Enabled>True</Enabled>
+      </Item>
+    </Providers>
+  </Options>
+</Root>

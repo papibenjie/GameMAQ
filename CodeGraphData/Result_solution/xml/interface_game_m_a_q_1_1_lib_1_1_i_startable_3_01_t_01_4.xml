@@ -1,0 +1,135 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="interface_game_m_a_q_1_1_lib_1_1_i_startable_3_01_t_01_4" kind="interface" prot="public">
+    <compoundname>GameMAQ::Lib::IStartable&lt; T &gt;</compoundname>
+    <derivedcompoundref refid="interface_game_m_a_q_1_1_lib_1_1_i_renderable_3_01_t_01_4" prot="public" virt="non-virtual">GameMAQ.Lib.IRenderable&lt; T &gt;</derivedcompoundref>
+    <templateparamlist>
+      <param>
+        <type>T</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_game_m_a_q_1_1_lib_1_1_i_startable_3_01_t_01_4_1aaa4bd54fdf7e85f8652a2d2660274f0f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void GameMAQ.Lib.IStartable&lt; T &gt;.Initialize</definition>
+        <argsstring>(T obj)</argsstring>
+        <name>Initialize</name>
+        <param>
+          <type>T</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Lib/IStartable.cs" line="5" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_game_m_a_q_1_1_lib_1_1_i_startable_3_01_t_01_4_1a6674f5bca91db0eed779c4db4d4b109c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void GameMAQ.Lib.IStartable&lt; T &gt;.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <reimplementedby refid="class_game_m_a_q_1_1_lib_1_1_component_1a3201308c2577598dbef9f5f237fdc3bf">Start</reimplementedby>
+        <reimplementedby refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_rectangle_sprite_1ab3a123610b1e7e76edfe118ef5faac71">Start</reimplementedby>
+        <reimplementedby refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_colliders_1_1_rectangle_collider_1ad6f93e162054df32bacccad26738d315">Start</reimplementedby>
+        <reimplementedby refid="class_game_m_a_q_1_1_lib_1_1_game_object_1a6523510f80854ac9d1305f6997b3ab36">Start</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Lib/IStartable.cs" line="6" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="154">
+        <label>GameMAQ.Lib.Components.Controls.FollowMouse</label>
+        <link refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_controls_1_1_follow_mouse"/>
+        <childnode refid="150" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="152">
+        <label>GameMAQ.Lib.Components.Collider&lt; T &gt;</label>
+        <link refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_collider_3_01_t_01_4"/>
+        <childnode refid="150" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="157">
+        <label>GameMAQ.Lib.Components.CircleSprite</label>
+        <link refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_circle_sprite"/>
+        <childnode refid="156" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="159">
+        <label>GameMAQ.Lib.Components.Transform</label>
+        <link refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_transform"/>
+        <childnode refid="150" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="158">
+        <label>GameMAQ.Lib.Components.RectangleSprite</label>
+        <link refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_rectangle_sprite"/>
+        <childnode refid="156" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="156">
+        <label>GameMAQ.Lib.Components.ShapeSprite</label>
+        <link refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_shape_sprite"/>
+        <childnode refid="155" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="148">
+        <label>GameMAQ.Lib.IStartable&lt; T &gt;</label>
+        <link refid="interface_game_m_a_q_1_1_lib_1_1_i_startable_3_01_t_01_4"/>
+      </node>
+      <node id="150">
+        <label>GameMAQ.Lib.Component</label>
+        <link refid="class_game_m_a_q_1_1_lib_1_1_component"/>
+        <childnode refid="149" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="160">
+        <label>GameMAQ.Lib.GameObject</label>
+        <link refid="class_game_m_a_q_1_1_lib_1_1_game_object"/>
+        <childnode refid="149" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="151">
+        <label>GameMAQ.Lib.CollidersManager</label>
+        <link refid="class_game_m_a_q_1_1_lib_1_1_colliders_manager"/>
+        <childnode refid="150" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="155">
+        <label>GameMAQ.Lib.Components.CustomSprite</label>
+        <link refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_custom_sprite"/>
+        <childnode refid="150" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="153">
+        <label>GameMAQ.Lib.Components.Colliders.RectangleCollider</label>
+        <link refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_colliders_1_1_rectangle_collider"/>
+        <childnode refid="152" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="149">
+        <label>GameMAQ.Lib.IRenderable&lt; T &gt;</label>
+        <link refid="interface_game_m_a_q_1_1_lib_1_1_i_renderable_3_01_t_01_4"/>
+        <childnode refid="148" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Lib/IStartable.cs" line="4" column="1" bodyfile="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Lib/IStartable.cs" bodystart="3" bodyend="7"/>
+    <listofallmembers>
+      <member refid="interface_game_m_a_q_1_1_lib_1_1_i_startable_3_01_t_01_4_1aaa4bd54fdf7e85f8652a2d2660274f0f" prot="public" virt="non-virtual"><scope>GameMAQ::Lib::IStartable&lt; T &gt;</scope><name>Initialize</name></member>
+      <member refid="interface_game_m_a_q_1_1_lib_1_1_i_startable_3_01_t_01_4_1a6674f5bca91db0eed779c4db4d4b109c" prot="public" virt="non-virtual"><scope>GameMAQ::Lib::IStartable&lt; T &gt;</scope><name>Start</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

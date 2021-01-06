@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_4ee8623d53813dd163b2aa8bbc0d9469" kind="dir">
+    <compoundname>C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Lib/Components/Controls</compoundname>
+    <innerfile refid="_follow_mouse_8cs">FollowMouse.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Lib/Components/Controls/"/>
+  </compounddef>
+</doxygen>

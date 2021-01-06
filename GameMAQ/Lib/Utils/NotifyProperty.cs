@@ -1,0 +1,3 @@
+﻿namespace GameMAQ.Lib.Utils
+{
+}

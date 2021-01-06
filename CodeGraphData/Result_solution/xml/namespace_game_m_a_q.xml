@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespace_game_m_a_q" kind="namespace">
+    <compoundname>GameMAQ</compoundname>
+    <innerclass refid="class_game_m_a_q_1_1_game1" prot="public">GameMAQ::Game1</innerclass>
+    <innerclass refid="class_game_m_a_q_1_1_program" prot="public">GameMAQ::Program</innerclass>
+    <innernamespace refid="namespace_game_m_a_q_1_1_annotations">GameMAQ::Annotations</innernamespace>
+    <innernamespace refid="namespace_game_m_a_q_1_1_lib">GameMAQ::Lib</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="[generated]" line="1" column="1"/>
+  </compounddef>
+</doxygen>

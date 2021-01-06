@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespace_game_m_a_q_1_1_lib" kind="namespace">
+    <compoundname>GameMAQ::Lib</compoundname>
+    <innerclass refid="class_game_m_a_q_1_1_lib_1_1_colliders_manager" prot="public">GameMAQ::Lib::CollidersManager</innerclass>
+    <innerclass refid="class_game_m_a_q_1_1_lib_1_1_component" prot="public">GameMAQ::Lib::Component</innerclass>
+    <innerclass refid="class_game_m_a_q_1_1_lib_1_1_game_m_a_q" prot="public">GameMAQ::Lib::GameMAQ</innerclass>
+    <innerclass refid="class_game_m_a_q_1_1_lib_1_1_game_object" prot="public">GameMAQ::Lib::GameObject</innerclass>
+    <innerclass refid="interface_game_m_a_q_1_1_lib_1_1_i_drawable" prot="public">GameMAQ::Lib::IDrawable</innerclass>
+    <innerclass refid="interface_game_m_a_q_1_1_lib_1_1_i_renderable_3_01_t_01_4" prot="public">GameMAQ::Lib::IRenderable&lt; T &gt;</innerclass>
+    <innerclass refid="interface_game_m_a_q_1_1_lib_1_1_i_startable_3_01_t_01_4" prot="public">GameMAQ::Lib::IStartable&lt; T &gt;</innerclass>
+    <innerclass refid="interface_game_m_a_q_1_1_lib_1_1_i_updatable" prot="public">GameMAQ::Lib::IUpdatable</innerclass>
+    <innernamespace refid="namespace_game_m_a_q_1_1_lib_1_1_components">GameMAQ::Lib::Components</innernamespace>
+    <innernamespace refid="namespace_game_m_a_q_1_1_lib_1_1_utils">GameMAQ::Lib::Utils</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="[generated]" line="1" column="1"/>
+  </compounddef>
+</doxygen>

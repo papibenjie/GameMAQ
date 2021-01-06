@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_5b76276cc30d0493c963db317d1e7a98" kind="dir">
+    <compoundname>C:/Users/marc-/Desktop/GameMAQ/GravityGame</compoundname>
+    <innerfile refid="_gravity_game_2_game1_8cs">Game1.cs</innerfile>
+    <innerfile refid="_gravity_game_2_program_8cs">Program.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/marc-/Desktop/GameMAQ/GravityGame/"/>
+  </compounddef>
+</doxygen>

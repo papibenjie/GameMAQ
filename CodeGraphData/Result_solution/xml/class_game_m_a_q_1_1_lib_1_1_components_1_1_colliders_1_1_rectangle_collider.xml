@@ -1,0 +1,292 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_game_m_a_q_1_1_lib_1_1_components_1_1_colliders_1_1_rectangle_collider" kind="class" prot="public">
+    <compoundname>GameMAQ::Lib::Components::Colliders::RectangleCollider</compoundname>
+    <basecompoundref refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_collider_3_01_t_01_4" prot="public" virt="non-virtual">GameMAQ.Lib.Components.Collider&lt; T &gt;</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_game_m_a_q_1_1_lib_1_1_components_1_1_colliders_1_1_rectangle_collider_1a27bc5fedb7665e070ea62c1376e75c6e" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool GameMAQ.Lib.Components.Colliders.RectangleCollider._display</definition>
+        <argsstring></argsstring>
+        <name>_display</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Lib/Components/Colliders/RectangleCollider.cs" line="8" column="1" bodyfile="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Lib/Components/Colliders/RectangleCollider.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_game_m_a_q_1_1_lib_1_1_components_1_1_colliders_1_1_rectangle_collider_1a25409e1c78dc4020494ebd2c819a61e9" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Vector2</type>
+        <definition>Vector2 GameMAQ.Lib.Components.Colliders.RectangleCollider.Size</definition>
+        <argsstring></argsstring>
+        <name>Size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Lib/Components/Colliders/RectangleCollider.cs" line="9" column="1" bodyfile="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Lib/Components/Colliders/RectangleCollider.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_game_m_a_q_1_1_lib_1_1_components_1_1_colliders_1_1_rectangle_collider_1ab825a721544a862303fd2a19c415c052" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_game_m_a_q_1_1_lib_1_1_game_object" kindref="compound">GameObject</ref></type>
+        <definition>GameObject GameMAQ.Lib.Components.Colliders.RectangleCollider.SpriteObject</definition>
+        <argsstring></argsstring>
+        <name>SpriteObject</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Lib/Components/Colliders/RectangleCollider.cs" line="10" column="1" bodyfile="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Lib/Components/Colliders/RectangleCollider.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_game_m_a_q_1_1_lib_1_1_components_1_1_colliders_1_1_rectangle_collider_1aac745bc6275b62f0a2c0daacaea97258" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_rectangle_sprite" kindref="compound">RectangleSprite</ref></type>
+        <definition>RectangleSprite GameMAQ.Lib.Components.Colliders.RectangleCollider.SpriteComponent</definition>
+        <argsstring></argsstring>
+        <name>SpriteComponent</name>
+        <initializer>= new <ref refid="class_game_m_a_q_1_1_lib_1_1_game_object" kindref="compound">GameObject</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Lib/Components/Colliders/RectangleCollider.cs" line="11" column="1" bodyfile="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Lib/Components/Colliders/RectangleCollider.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_game_m_a_q_1_1_lib_1_1_components_1_1_colliders_1_1_rectangle_collider_1a14cbe947cb6f6ccae96abe7fb8026c80" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool GameMAQ.Lib.Components.Colliders.RectangleCollider.DisplayDefault</definition>
+        <argsstring></argsstring>
+        <name>DisplayDefault</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Lib/Components/Colliders/RectangleCollider.cs" line="12" column="1" bodyfile="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Lib/Components/Colliders/RectangleCollider.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_game_m_a_q_1_1_lib_1_1_components_1_1_colliders_1_1_rectangle_collider_1aadfc737fef25c98614e31dbdbd621810" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool GameMAQ.Lib.Components.Colliders.RectangleCollider.Display</definition>
+        <argsstring></argsstring>
+        <name>Display</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Lib/Components/Colliders/RectangleCollider.cs" line="14" column="1" bodyfile="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Lib/Components/Colliders/RectangleCollider.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_game_m_a_q_1_1_lib_1_1_components_1_1_colliders_1_1_rectangle_collider_1a49431471eef4ecc507f7aef77a419289" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>GameMAQ.Lib.Components.Colliders.RectangleCollider.RectangleCollider</definition>
+        <argsstring>(Vector2 size, bool displayDefault=false)</argsstring>
+        <name>RectangleCollider</name>
+        <param>
+          <type>Vector2</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>displayDefault</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Lib/Components/Colliders/RectangleCollider.cs" line="37" column="1" bodyfile="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Lib/Components/Colliders/RectangleCollider.cs" bodystart="37" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="class_game_m_a_q_1_1_lib_1_1_components_1_1_colliders_1_1_rectangle_collider_1ad6f93e162054df32bacccad26738d315" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void GameMAQ.Lib.Components.Colliders.RectangleCollider.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <reimplements refid="class_game_m_a_q_1_1_lib_1_1_component_1a3201308c2577598dbef9f5f237fdc3bf">Start</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Lib/Components/Colliders/RectangleCollider.cs" line="43" column="1" bodyfile="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Lib/Components/Colliders/RectangleCollider.cs" bodystart="43" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="class_game_m_a_q_1_1_lib_1_1_components_1_1_colliders_1_1_rectangle_collider_1a713663f0a54f1548bf7a945c3e8b1f23" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void GameMAQ.Lib.Components.Colliders.RectangleCollider.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <reimplements refid="class_game_m_a_q_1_1_lib_1_1_component_1a57b84a728bf31e18a630f6e8ceeb3984">Update</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Lib/Components/Colliders/RectangleCollider.cs" line="53" column="1" bodyfile="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Lib/Components/Colliders/RectangleCollider.cs" bodystart="53" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="class_game_m_a_q_1_1_lib_1_1_components_1_1_colliders_1_1_rectangle_collider_1a5815b0f305757735c64080423669acff" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool GameMAQ.Lib.Components.Colliders.RectangleCollider.IsColliding</definition>
+        <argsstring>(RectangleCollider collider)</argsstring>
+        <name>IsColliding</name>
+        <param>
+          <type><ref refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_colliders_1_1_rectangle_collider" kindref="compound">RectangleCollider</ref></type>
+          <declname>collider</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Lib/Components/Colliders/RectangleCollider.cs" line="59" column="1" bodyfile="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Lib/Components/Colliders/RectangleCollider.cs" bodystart="59" bodyend="62"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_game_m_a_q_1_1_lib_1_1_components_1_1_colliders_1_1_rectangle_collider_1a7a271b9f8eb337c5e00b1cd4b1973e8f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool GameMAQ.Lib.Components.Colliders.RectangleCollider.HandleRectangle</definition>
+        <argsstring>(RectangleCollider rectangleCollider)</argsstring>
+        <name>HandleRectangle</name>
+        <param>
+          <type><ref refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_colliders_1_1_rectangle_collider" kindref="compound">RectangleCollider</ref></type>
+          <declname>rectangleCollider</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Lib/Components/Colliders/RectangleCollider.cs" line="64" column="1" bodyfile="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Lib/Components/Colliders/RectangleCollider.cs" bodystart="64" bodyend="75"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="200">
+        <label>Component</label>
+        <link refid="class_game_m_a_q_1_1_lib_1_1_component"/>
+        <childnode refid="201" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="203">
+        <label>IDrawable</label>
+        <link refid="interface_game_m_a_q_1_1_lib_1_1_i_drawable"/>
+      </node>
+      <node id="202">
+        <label>IUpdatable</label>
+        <link refid="interface_game_m_a_q_1_1_lib_1_1_i_updatable"/>
+      </node>
+      <node id="204">
+        <label>IStartable&lt; T &gt;</label>
+        <link refid="interface_game_m_a_q_1_1_lib_1_1_i_startable_3_01_t_01_4"/>
+      </node>
+      <node id="198">
+        <label>GameMAQ.Lib.Components.Colliders.RectangleCollider</label>
+        <link refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_colliders_1_1_rectangle_collider"/>
+        <childnode refid="199" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="201">
+        <label>IRenderable&lt; GameObject &gt;</label>
+        <link refid="interface_game_m_a_q_1_1_lib_1_1_i_renderable_3_01_t_01_4"/>
+        <childnode refid="202" relation="public-inheritance">
+        </childnode>
+        <childnode refid="203" relation="public-inheritance">
+        </childnode>
+        <childnode refid="204" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="199">
+        <label>Collider&lt; RectangleCollider &gt;</label>
+        <link refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_collider_3_01_t_01_4"/>
+        <childnode refid="200" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="207">
+        <label>Component</label>
+        <link refid="class_game_m_a_q_1_1_lib_1_1_component"/>
+        <childnode refid="208" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="210">
+        <label>IDrawable</label>
+        <link refid="interface_game_m_a_q_1_1_lib_1_1_i_drawable"/>
+      </node>
+      <node id="209">
+        <label>IUpdatable</label>
+        <link refid="interface_game_m_a_q_1_1_lib_1_1_i_updatable"/>
+      </node>
+      <node id="211">
+        <label>IStartable&lt; T &gt;</label>
+        <link refid="interface_game_m_a_q_1_1_lib_1_1_i_startable_3_01_t_01_4"/>
+      </node>
+      <node id="205">
+        <label>GameMAQ.Lib.Components.Colliders.RectangleCollider</label>
+        <link refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_colliders_1_1_rectangle_collider"/>
+        <childnode refid="206" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="208">
+        <label>IRenderable&lt; GameObject &gt;</label>
+        <link refid="interface_game_m_a_q_1_1_lib_1_1_i_renderable_3_01_t_01_4"/>
+        <childnode refid="209" relation="public-inheritance">
+        </childnode>
+        <childnode refid="210" relation="public-inheritance">
+        </childnode>
+        <childnode refid="211" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="206">
+        <label>Collider&lt; RectangleCollider &gt;</label>
+        <link refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_collider_3_01_t_01_4"/>
+        <childnode refid="207" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Lib/Components/Colliders/RectangleCollider.cs" line="7" column="1" bodyfile="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Lib/Components/Colliders/RectangleCollider.cs" bodystart="6" bodyend="76"/>
+    <listofallmembers>
+      <member refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_colliders_1_1_rectangle_collider_1a27bc5fedb7665e070ea62c1376e75c6e" prot="private" virt="non-virtual"><scope>GameMAQ::Lib::Components::Colliders::RectangleCollider</scope><name>_display</name></member>
+      <member refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_collider_3_01_t_01_4_1a2241e3a8bfc6e77a1d75f9d9e290a128" prot="public" virt="non-virtual"><scope>GameMAQ::Lib::Components::Colliders::RectangleCollider</scope><name>CollideEvent</name></member>
+      <member refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_colliders_1_1_rectangle_collider_1aadfc737fef25c98614e31dbdbd621810" prot="public" virt="non-virtual"><scope>GameMAQ::Lib::Components::Colliders::RectangleCollider</scope><name>Display</name></member>
+      <member refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_colliders_1_1_rectangle_collider_1a14cbe947cb6f6ccae96abe7fb8026c80" prot="public" virt="non-virtual"><scope>GameMAQ::Lib::Components::Colliders::RectangleCollider</scope><name>DisplayDefault</name></member>
+      <member refid="class_game_m_a_q_1_1_lib_1_1_component_1ab2bc1bbb03806da98732532067db19c2" prot="public" virt="virtual"><scope>GameMAQ::Lib::Components::Colliders::RectangleCollider</scope><name>Draw</name></member>
+      <member refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_collider_3_01_t_01_4_1af7c5fe4dfd43b62b0063accfb34642db" prot="public" virt="non-virtual"><scope>GameMAQ::Lib::Components::Colliders::RectangleCollider</scope><name>EnterEvent</name></member>
+      <member refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_collider_3_01_t_01_4_1ac8ed4fe2e2ac9a600cc844ca357a096e" prot="public" virt="non-virtual"><scope>GameMAQ::Lib::Components::Colliders::RectangleCollider</scope><name>ExitEvent</name></member>
+      <member refid="class_game_m_a_q_1_1_lib_1_1_component_1a07c0d337b2397308c910314aa3dd0cb9" prot="public" virt="non-virtual"><scope>GameMAQ::Lib::Components::Colliders::RectangleCollider</scope><name>GameObject</name></member>
+      <member refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_colliders_1_1_rectangle_collider_1a7a271b9f8eb337c5e00b1cd4b1973e8f" prot="private" virt="non-virtual"><scope>GameMAQ::Lib::Components::Colliders::RectangleCollider</scope><name>HandleRectangle</name></member>
+      <member refid="class_game_m_a_q_1_1_lib_1_1_component_1a0bc089df197426e68f8762b80586d0b3" prot="public" virt="virtual"><scope>GameMAQ::Lib::Components::Colliders::RectangleCollider</scope><name>Initialize</name></member>
+      <member refid="interface_game_m_a_q_1_1_lib_1_1_i_startable_3_01_t_01_4_1aaa4bd54fdf7e85f8652a2d2660274f0f" prot="public" virt="non-virtual" ambiguityscope="GameMAQ::Lib::IRenderable&lt; T &gt;."><scope>GameMAQ::Lib::Components::Colliders::RectangleCollider</scope><name>Initialize</name></member>
+      <member refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_colliders_1_1_rectangle_collider_1a5815b0f305757735c64080423669acff" prot="public" virt="non-virtual"><scope>GameMAQ::Lib::Components::Colliders::RectangleCollider</scope><name>IsColliding</name></member>
+      <member refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_collider_3_01_t_01_4_1a3a9779cc167679237161a7028535c7d6" prot="public" virt="pure-virtual" ambiguityscope="GameMAQ::Lib::Components::Collider&lt; T &gt;."><scope>GameMAQ::Lib::Components::Colliders::RectangleCollider</scope><name>IsColliding</name></member>
+      <member refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_collider_3_01_t_01_4_1abd27573a78f70bb468855e8e86072283" prot="public" virt="virtual"><scope>GameMAQ::Lib::Components::Colliders::RectangleCollider</scope><name>OnCollide</name></member>
+      <member refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_collider_3_01_t_01_4_1a17d3b36dc72f874babcdc08564a3fcbd" prot="public" virt="virtual"><scope>GameMAQ::Lib::Components::Colliders::RectangleCollider</scope><name>OnEnter</name></member>
+      <member refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_collider_3_01_t_01_4_1affa8e8d895aa642b94e358f181261784" prot="public" virt="virtual"><scope>GameMAQ::Lib::Components::Colliders::RectangleCollider</scope><name>OnExit</name></member>
+      <member refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_colliders_1_1_rectangle_collider_1a49431471eef4ecc507f7aef77a419289" prot="public" virt="non-virtual"><scope>GameMAQ::Lib::Components::Colliders::RectangleCollider</scope><name>RectangleCollider</name></member>
+      <member refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_colliders_1_1_rectangle_collider_1a25409e1c78dc4020494ebd2c819a61e9" prot="public" virt="non-virtual"><scope>GameMAQ::Lib::Components::Colliders::RectangleCollider</scope><name>Size</name></member>
+      <member refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_colliders_1_1_rectangle_collider_1aac745bc6275b62f0a2c0daacaea97258" prot="public" virt="non-virtual"><scope>GameMAQ::Lib::Components::Colliders::RectangleCollider</scope><name>SpriteComponent</name></member>
+      <member refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_colliders_1_1_rectangle_collider_1ab825a721544a862303fd2a19c415c052" prot="public" virt="non-virtual"><scope>GameMAQ::Lib::Components::Colliders::RectangleCollider</scope><name>SpriteObject</name></member>
+      <member refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_colliders_1_1_rectangle_collider_1ad6f93e162054df32bacccad26738d315" prot="public" virt="virtual"><scope>GameMAQ::Lib::Components::Colliders::RectangleCollider</scope><name>Start</name></member>
+      <member refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_colliders_1_1_rectangle_collider_1a713663f0a54f1548bf7a945c3e8b1f23" prot="public" virt="virtual"><scope>GameMAQ::Lib::Components::Colliders::RectangleCollider</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_6fee13725e5aded959b1a9af18840147" kind="dir">
+    <compoundname>C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Lib</compoundname>
+    <innerdir refid="dir_7694072d82d50ebfc02396acebc57dc1">C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Lib/Components</innerdir>
+    <innerdir refid="dir_3acdd269824147efd7a905705264b6f0">C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Lib/Utils</innerdir>
+    <innerfile refid="_component_8cs">Component.cs</innerfile>
+    <innerfile refid="_game_m_a_q_8cs">GameMAQ.cs</innerfile>
+    <innerfile refid="_game_object_8cs">GameObject.cs</innerfile>
+    <innerfile refid="_i_drawable_8cs">IDrawable.cs</innerfile>
+    <innerfile refid="_i_renderable_8cs">IRenderable.cs</innerfile>
+    <innerfile refid="_i_startable_8cs">IStartable.cs</innerfile>
+    <innerfile refid="_i_updatable_8cs">IUpdatable.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Lib/"/>
+  </compounddef>
+</doxygen>

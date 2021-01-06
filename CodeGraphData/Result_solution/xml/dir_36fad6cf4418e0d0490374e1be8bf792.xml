@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_36fad6cf4418e0d0490374e1be8bf792" kind="dir">
+    <compoundname>C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Lib/Components/Colliders</compoundname>
+    <innerfile refid="_collider_8cs">Collider.cs</innerfile>
+    <innerfile refid="_colliders_manager_8cs">CollidersManager.cs</innerfile>
+    <innerfile refid="_rectangle_collider_8cs">RectangleCollider.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Lib/Components/Colliders/"/>
+  </compounddef>
+</doxygen>

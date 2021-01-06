@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_string_format_method_attribute" kind="class" prot="public">
+    <compoundname>StringFormatMethodAttribute</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Attribute</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_string_format_method_attribute_1a93e8904b7dfa6cdd20798a5ae4d3423e" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>string</type>
+        <definition>string StringFormatMethodAttribute.FormatParameterName</definition>
+        <argsstring></argsstring>
+        <name>FormatParameterName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Annotations.cs" line="133" column="1" bodyfile="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Annotations.cs" bodystart="133" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_string_format_method_attribute_1a68911e2dabb1b9f238f9605bde469e97" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>StringFormatMethodAttribute.StringFormatMethodAttribute</definition>
+        <argsstring>([NotNull] string formatParameterName)</argsstring>
+        <name>StringFormatMethodAttribute</name>
+        <param>
+          <attributes>[NotNull]</attributes>
+          <type>string</type>
+          <declname>formatParameterName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>formatParameterName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Specifies which parameter of an annotated method should be treated as the format string </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Annotations.cs" line="128" column="1" bodyfile="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Annotations.cs" bodystart="128" bodyend="131"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="245">
+        <label>Attribute</label>
+      </node>
+      <node id="244">
+        <label>StringFormatMethodAttribute</label>
+        <link refid="class_string_format_method_attribute"/>
+        <childnode refid="245" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="247">
+        <label>Attribute</label>
+      </node>
+      <node id="246">
+        <label>StringFormatMethodAttribute</label>
+        <link refid="class_string_format_method_attribute"/>
+        <childnode refid="247" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Annotations.cs" line="124" column="1" bodyfile="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Annotations.cs" bodystart="123" bodyend="134"/>
+    <listofallmembers>
+      <member refid="class_string_format_method_attribute_1a93e8904b7dfa6cdd20798a5ae4d3423e" prot="public" virt="non-virtual"><scope>StringFormatMethodAttribute</scope><name>FormatParameterName</name></member>
+      <member refid="class_string_format_method_attribute_1a68911e2dabb1b9f238f9605bde469e97" prot="public" virt="non-virtual"><scope>StringFormatMethodAttribute</scope><name>StringFormatMethodAttribute</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

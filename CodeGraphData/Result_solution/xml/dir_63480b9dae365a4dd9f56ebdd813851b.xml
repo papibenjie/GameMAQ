@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_63480b9dae365a4dd9f56ebdd813851b" kind="dir">
+    <compoundname>C:/Users/marc-/Desktop/GameMAQ/GameMAQ</compoundname>
+    <innerdir refid="dir_6fee13725e5aded959b1a9af18840147">C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Lib</innerdir>
+    <innerfile refid="_annotations_8cs">Annotations.cs</innerfile>
+    <innerfile refid="_game_m_a_q_2_game1_8cs">Game1.cs</innerfile>
+    <innerfile refid="_game_m_a_q_2_program_8cs">Program.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_gravity_game_1_1_program" kind="class" prot="public">
+    <compoundname>GravityGame::Program</compoundname>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_gravity_game_1_1_program_1a9a33470bc534b38404f48f0a1d739236" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void GravityGame.Program.Main</definition>
+        <argsstring>()</argsstring>
+        <name>Main</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/marc-/Desktop/GameMAQ/GravityGame/Program.cs" line="8" column="1" bodyfile="C:/Users/marc-/Desktop/GameMAQ/GravityGame/Program.cs" bodystart="8" bodyend="13"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/marc-/Desktop/GameMAQ/GravityGame/Program.cs" line="6" column="1" bodyfile="C:/Users/marc-/Desktop/GameMAQ/GravityGame/Program.cs" bodystart="5" bodyend="14"/>
+    <listofallmembers>
+      <member refid="class_gravity_game_1_1_program_1a9a33470bc534b38404f48f0a1d739236" prot="private" virt="non-virtual"><scope>GravityGame::Program</scope><name>Main</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

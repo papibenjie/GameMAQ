@@ -1,0 +1,302 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_game_m_a_q_1_1_lib_1_1_game_object" kind="class" prot="public">
+    <compoundname>GameMAQ::Lib::GameObject</compoundname>
+    <basecompoundref refid="interface_game_m_a_q_1_1_lib_1_1_i_renderable_3_01_t_01_4" prot="public" virt="non-virtual">GameMAQ.Lib.IRenderable&lt; T &gt;</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_game_m_a_q_1_1_lib_1_1_game_object_1a7ff00856652729a8680b440672be6829" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_game_m_a_q_1_1_lib_1_1_game_object" kindref="compound">GameObject</ref></type>
+        <definition>GameObject GameMAQ.Lib.GameObject.Parent</definition>
+        <argsstring></argsstring>
+        <name>Parent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Lib/GameObject.cs" line="11" column="1" bodyfile="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Lib/GameObject.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_game_m_a_q_1_1_lib_1_1_game_object_1aa4765ceca373c4b104a0a6ae629ac2e5" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_game_m_a_q_1_1_lib_1_1_game_m_a_q" kindref="compound">GameMAQ</ref></type>
+        <definition>GameMAQ GameMAQ.Lib.GameObject.Game</definition>
+        <argsstring></argsstring>
+        <name>Game</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Lib/GameObject.cs" line="13" column="1" bodyfile="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Lib/GameObject.cs" bodystart="13" bodyend="-1"/>
+        <referencedby refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_rectangle_sprite_1ab3a123610b1e7e76edfe118ef5faac71" compoundref="_shape_sprite_8cs" startline="32" endline="36">GameMAQ.Lib.Components.RectangleSprite.Start</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_game_m_a_q_1_1_lib_1_1_game_object_1a07e27efeb636e921491e67d9f049630a" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_transform" kindref="compound">Transform</ref></type>
+        <definition>Transform GameMAQ.Lib.GameObject.Transform</definition>
+        <argsstring></argsstring>
+        <name>Transform</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Lib/GameObject.cs" line="15" column="1" bodyfile="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Lib/GameObject.cs" bodystart="15" bodyend="-1"/>
+        <referencedby refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_primitive_m_a_q_extension_1a15a5a152add923bec5500a54f94890e1" compoundref="_primitive_m_a_q_extension_8cs" startline="10" endline="32">GameMAQ.Lib.Components.PrimitiveMAQExtension.DrawRectangleMAQ</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_game_m_a_q_1_1_lib_1_1_game_object_1a2b45d5d82dfacc24105f2bde77db87e3" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>ListMAQ&lt; <ref refid="class_game_m_a_q_1_1_lib_1_1_component" kindref="compound">Component</ref> &gt;</type>
+        <definition>ListMAQ&lt;Component&gt; GameMAQ.Lib.GameObject.Components</definition>
+        <argsstring></argsstring>
+        <name>Components</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Lib/GameObject.cs" line="17" column="1" bodyfile="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Lib/GameObject.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_game_m_a_q_1_1_lib_1_1_game_object_1a2628c76f6cbe4b06a27d87d5f317988c" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>ListMAQ&lt; <ref refid="class_game_m_a_q_1_1_lib_1_1_game_object" kindref="compound">GameObject</ref> &gt;</type>
+        <definition>ListMAQ&lt;GameObject&gt; GameMAQ.Lib.GameObject.Children</definition>
+        <argsstring></argsstring>
+        <name>Children</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Lib/GameObject.cs" line="19" column="1" bodyfile="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Lib/GameObject.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_game_m_a_q_1_1_lib_1_1_game_object_1a20794961c246691c6d687831c73d0ee1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>GameMAQ.Lib.GameObject.GameObject</definition>
+        <argsstring>()</argsstring>
+        <name>GameObject</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Lib/GameObject.cs" line="21" column="1" bodyfile="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Lib/GameObject.cs" bodystart="21" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="class_game_m_a_q_1_1_lib_1_1_game_object_1af919c5aef6c859a8179f6b476dd29f3a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerable&lt; T &gt;</type>
+        <definition>IEnumerable&lt;T&gt; GameMAQ.Lib.GameObject.GetComponents&lt; T &gt;</definition>
+        <argsstring>()</argsstring>
+        <name>GetComponents&lt; T &gt;</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Lib/GameObject.cs" line="43" column="1" bodyfile="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Lib/GameObject.cs" bodystart="43" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="class_game_m_a_q_1_1_lib_1_1_game_object_1a9557853a2b8927a8b0e2bc679d564320" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerable&lt; T &gt;</type>
+        <definition>IEnumerable&lt;T&gt; GameMAQ.Lib.GameObject.GetComponentsInTree&lt; T &gt;</definition>
+        <argsstring>()</argsstring>
+        <name>GetComponentsInTree&lt; T &gt;</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Lib/GameObject.cs" line="52" column="1" bodyfile="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Lib/GameObject.cs" bodystart="52" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="class_game_m_a_q_1_1_lib_1_1_game_object_1a4cbb6683e43110b7b595b57dd3170fca" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GameMAQ.Lib.GameObject.Draw</definition>
+        <argsstring>()</argsstring>
+        <name>Draw</name>
+        <reimplements refid="interface_game_m_a_q_1_1_lib_1_1_i_drawable_1ac12fffa8a8961dce4a5758eca74445a8">Draw</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Lib/GameObject.cs" line="65" column="1" bodyfile="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Lib/GameObject.cs" bodystart="65" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="function" id="class_game_m_a_q_1_1_lib_1_1_game_object_1a7022f7212019dd235bc6158aa10da016" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GameMAQ.Lib.GameObject.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <reimplements refid="interface_game_m_a_q_1_1_lib_1_1_i_updatable_1aa4580eff83d3d652e26868693ffe24e4">Update</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Lib/GameObject.cs" line="77" column="1" bodyfile="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Lib/GameObject.cs" bodystart="77" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="function" id="class_game_m_a_q_1_1_lib_1_1_game_object_1af22b2f5c97994f4162bf649a3d6c0434" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GameMAQ.Lib.GameObject.Initialize</definition>
+        <argsstring>(GameMAQ game)</argsstring>
+        <name>Initialize</name>
+        <param>
+          <type><ref refid="class_game_m_a_q_1_1_lib_1_1_game_m_a_q" kindref="compound">GameMAQ</ref></type>
+          <declname>game</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Lib/GameObject.cs" line="90" column="1" bodyfile="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Lib/GameObject.cs" bodystart="90" bodyend="102"/>
+      </memberdef>
+      <memberdef kind="function" id="class_game_m_a_q_1_1_lib_1_1_game_object_1a6523510f80854ac9d1305f6997b3ab36" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GameMAQ.Lib.GameObject.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <reimplements refid="interface_game_m_a_q_1_1_lib_1_1_i_startable_3_01_t_01_4_1a6674f5bca91db0eed779c4db4d4b109c">Start</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Lib/GameObject.cs" line="104" column="1" bodyfile="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Lib/GameObject.cs" bodystart="104" bodyend="114"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_game_m_a_q_1_1_lib_1_1_game_object_1aacc57f2e47d88f78e27db0a2a1b28ece" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GameMAQ.Lib.GameObject.ComponentsOnBeforeAdding</definition>
+        <argsstring>(ListMAQ&lt; Component &gt; collection, Component newItem)</argsstring>
+        <name>ComponentsOnBeforeAdding</name>
+        <param>
+          <type>ListMAQ&lt; <ref refid="class_game_m_a_q_1_1_lib_1_1_component" kindref="compound">Component</ref> &gt;</type>
+          <declname>collection</declname>
+        </param>
+        <param>
+          <type><ref refid="class_game_m_a_q_1_1_lib_1_1_component" kindref="compound">Component</ref></type>
+          <declname>newItem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Lib/GameObject.cs" line="32" column="1" bodyfile="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Lib/GameObject.cs" bodystart="32" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_game_m_a_q_1_1_lib_1_1_game_object_1a8e4e330351afb800852db4081bd39c97" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GameMAQ.Lib.GameObject.ChildrenOnBeforeAdding</definition>
+        <argsstring>(ListMAQ&lt; GameObject &gt; collection, GameObject newItem)</argsstring>
+        <name>ChildrenOnBeforeAdding</name>
+        <param>
+          <type>ListMAQ&lt; <ref refid="class_game_m_a_q_1_1_lib_1_1_game_object" kindref="compound">GameObject</ref> &gt;</type>
+          <declname>collection</declname>
+        </param>
+        <param>
+          <type><ref refid="class_game_m_a_q_1_1_lib_1_1_game_object" kindref="compound">GameObject</ref></type>
+          <declname>newItem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Lib/GameObject.cs" line="37" column="1" bodyfile="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Lib/GameObject.cs" bodystart="37" bodyend="41"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="105">
+        <label>GameMAQ.Lib.GameObject</label>
+        <link refid="class_game_m_a_q_1_1_lib_1_1_game_object"/>
+        <childnode refid="106" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="108">
+        <label>IDrawable</label>
+        <link refid="interface_game_m_a_q_1_1_lib_1_1_i_drawable"/>
+      </node>
+      <node id="107">
+        <label>IUpdatable</label>
+        <link refid="interface_game_m_a_q_1_1_lib_1_1_i_updatable"/>
+      </node>
+      <node id="109">
+        <label>IStartable&lt; T &gt;</label>
+        <link refid="interface_game_m_a_q_1_1_lib_1_1_i_startable_3_01_t_01_4"/>
+      </node>
+      <node id="106">
+        <label>IRenderable&lt; GameMAQ &gt;</label>
+        <link refid="interface_game_m_a_q_1_1_lib_1_1_i_renderable_3_01_t_01_4"/>
+        <childnode refid="107" relation="public-inheritance">
+        </childnode>
+        <childnode refid="108" relation="public-inheritance">
+        </childnode>
+        <childnode refid="109" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="110">
+        <label>GameMAQ.Lib.GameObject</label>
+        <link refid="class_game_m_a_q_1_1_lib_1_1_game_object"/>
+        <childnode refid="111" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="113">
+        <label>IDrawable</label>
+        <link refid="interface_game_m_a_q_1_1_lib_1_1_i_drawable"/>
+      </node>
+      <node id="112">
+        <label>IUpdatable</label>
+        <link refid="interface_game_m_a_q_1_1_lib_1_1_i_updatable"/>
+      </node>
+      <node id="114">
+        <label>IStartable&lt; T &gt;</label>
+        <link refid="interface_game_m_a_q_1_1_lib_1_1_i_startable_3_01_t_01_4"/>
+      </node>
+      <node id="111">
+        <label>IRenderable&lt; GameMAQ &gt;</label>
+        <link refid="interface_game_m_a_q_1_1_lib_1_1_i_renderable_3_01_t_01_4"/>
+        <childnode refid="112" relation="public-inheritance">
+        </childnode>
+        <childnode refid="113" relation="public-inheritance">
+        </childnode>
+        <childnode refid="114" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Lib/GameObject.cs" line="10" column="1" bodyfile="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Lib/GameObject.cs" bodystart="9" bodyend="115"/>
+    <listofallmembers>
+      <member refid="class_game_m_a_q_1_1_lib_1_1_game_object_1a2628c76f6cbe4b06a27d87d5f317988c" prot="public" virt="non-virtual"><scope>GameMAQ::Lib::GameObject</scope><name>Children</name></member>
+      <member refid="class_game_m_a_q_1_1_lib_1_1_game_object_1a8e4e330351afb800852db4081bd39c97" prot="private" virt="non-virtual"><scope>GameMAQ::Lib::GameObject</scope><name>ChildrenOnBeforeAdding</name></member>
+      <member refid="class_game_m_a_q_1_1_lib_1_1_game_object_1a2b45d5d82dfacc24105f2bde77db87e3" prot="public" virt="non-virtual"><scope>GameMAQ::Lib::GameObject</scope><name>Components</name></member>
+      <member refid="class_game_m_a_q_1_1_lib_1_1_game_object_1aacc57f2e47d88f78e27db0a2a1b28ece" prot="private" virt="non-virtual"><scope>GameMAQ::Lib::GameObject</scope><name>ComponentsOnBeforeAdding</name></member>
+      <member refid="class_game_m_a_q_1_1_lib_1_1_game_object_1a4cbb6683e43110b7b595b57dd3170fca" prot="public" virt="non-virtual"><scope>GameMAQ::Lib::GameObject</scope><name>Draw</name></member>
+      <member refid="class_game_m_a_q_1_1_lib_1_1_game_object_1aa4765ceca373c4b104a0a6ae629ac2e5" prot="public" virt="non-virtual"><scope>GameMAQ::Lib::GameObject</scope><name>Game</name></member>
+      <member refid="class_game_m_a_q_1_1_lib_1_1_game_object_1a20794961c246691c6d687831c73d0ee1" prot="public" virt="non-virtual"><scope>GameMAQ::Lib::GameObject</scope><name>GameObject</name></member>
+      <member refid="class_game_m_a_q_1_1_lib_1_1_game_object_1af919c5aef6c859a8179f6b476dd29f3a" prot="public" virt="non-virtual"><scope>GameMAQ::Lib::GameObject</scope><name>GetComponents&lt; T &gt;</name></member>
+      <member refid="class_game_m_a_q_1_1_lib_1_1_game_object_1a9557853a2b8927a8b0e2bc679d564320" prot="public" virt="non-virtual"><scope>GameMAQ::Lib::GameObject</scope><name>GetComponentsInTree&lt; T &gt;</name></member>
+      <member refid="class_game_m_a_q_1_1_lib_1_1_game_object_1af22b2f5c97994f4162bf649a3d6c0434" prot="public" virt="non-virtual"><scope>GameMAQ::Lib::GameObject</scope><name>Initialize</name></member>
+      <member refid="interface_game_m_a_q_1_1_lib_1_1_i_startable_3_01_t_01_4_1aaa4bd54fdf7e85f8652a2d2660274f0f" prot="public" virt="non-virtual" ambiguityscope="GameMAQ::Lib::IRenderable&lt; T &gt;."><scope>GameMAQ::Lib::GameObject</scope><name>Initialize</name></member>
+      <member refid="class_game_m_a_q_1_1_lib_1_1_game_object_1a7ff00856652729a8680b440672be6829" prot="public" virt="non-virtual"><scope>GameMAQ::Lib::GameObject</scope><name>Parent</name></member>
+      <member refid="class_game_m_a_q_1_1_lib_1_1_game_object_1a6523510f80854ac9d1305f6997b3ab36" prot="public" virt="non-virtual"><scope>GameMAQ::Lib::GameObject</scope><name>Start</name></member>
+      <member refid="class_game_m_a_q_1_1_lib_1_1_game_object_1a07e27efeb636e921491e67d9f049630a" prot="public" virt="non-virtual"><scope>GameMAQ::Lib::GameObject</scope><name>Transform</name></member>
+      <member refid="class_game_m_a_q_1_1_lib_1_1_game_object_1a7022f7212019dd235bc6158aa10da016" prot="public" virt="non-virtual"><scope>GameMAQ::Lib::GameObject</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

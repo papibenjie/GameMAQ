@@ -1,0 +1,152 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_gravity_game_1_1_game1" kind="class" prot="public">
+    <compoundname>GravityGame::Game1</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Game</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_gravity_game_1_1_game1_1a9ef05bab09f83576e1c9b598585a4c7a" prot="private" static="no" mutable="no">
+        <type>GraphicsDeviceManager</type>
+        <definition>GraphicsDeviceManager GravityGame.Game1._graphics</definition>
+        <argsstring></argsstring>
+        <name>_graphics</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/marc-/Desktop/GameMAQ/GravityGame/Game1.cs" line="9" column="1" bodyfile="C:/Users/marc-/Desktop/GameMAQ/GravityGame/Game1.cs" bodystart="9" bodyend="-1"/>
+        <referencedby refid="class_gravity_game_1_1_game1_1abd666b1d278ad175f38e3fe4d11b2af5" compoundref="_gravity_game_2_game1_8cs" startline="12" endline="17">GravityGame.Game1.Game1</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_gravity_game_1_1_game1_1ad1a15b6d3d4c0f254f15156688d995b1" prot="private" static="no" mutable="no">
+        <type>SpriteBatch</type>
+        <definition>SpriteBatch GravityGame.Game1._spriteBatch</definition>
+        <argsstring></argsstring>
+        <name>_spriteBatch</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/marc-/Desktop/GameMAQ/GravityGame/Game1.cs" line="10" column="1" bodyfile="C:/Users/marc-/Desktop/GameMAQ/GravityGame/Game1.cs" bodystart="10" bodyend="-1"/>
+        <referencedby refid="class_gravity_game_1_1_game1_1a7c87dc822ecc677a305752d49b3d6463" compoundref="_gravity_game_2_game1_8cs" startline="26" endline="31">GravityGame.Game1.LoadContent</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_gravity_game_1_1_game1_1abd666b1d278ad175f38e3fe4d11b2af5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>GravityGame.Game1.Game1</definition>
+        <argsstring>()</argsstring>
+        <name>Game1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/marc-/Desktop/GameMAQ/GravityGame/Game1.cs" line="12" column="1" bodyfile="C:/Users/marc-/Desktop/GameMAQ/GravityGame/Game1.cs" bodystart="12" bodyend="17"/>
+        <references refid="class_gravity_game_1_1_game1_1a9ef05bab09f83576e1c9b598585a4c7a" compoundref="_gravity_game_2_game1_8cs" startline="9">GravityGame.Game1._graphics</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_gravity_game_1_1_game1_1a19e29f9259c2d603bfa37973e6b4cd0e" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void GravityGame.Game1.Initialize</definition>
+        <argsstring>()</argsstring>
+        <name>Initialize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/marc-/Desktop/GameMAQ/GravityGame/Game1.cs" line="19" column="1" bodyfile="C:/Users/marc-/Desktop/GameMAQ/GravityGame/Game1.cs" bodystart="19" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_gravity_game_1_1_game1_1a7c87dc822ecc677a305752d49b3d6463" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void GravityGame.Game1.LoadContent</definition>
+        <argsstring>()</argsstring>
+        <name>LoadContent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/marc-/Desktop/GameMAQ/GravityGame/Game1.cs" line="26" column="1" bodyfile="C:/Users/marc-/Desktop/GameMAQ/GravityGame/Game1.cs" bodystart="26" bodyend="31"/>
+        <references refid="class_gravity_game_1_1_game1_1ad1a15b6d3d4c0f254f15156688d995b1" compoundref="_gravity_game_2_game1_8cs" startline="10">GravityGame.Game1._spriteBatch</references>
+      </memberdef>
+      <memberdef kind="function" id="class_gravity_game_1_1_game1_1a8ff8d2c8865628c232f29b0b83314d3c" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void GravityGame.Game1.Update</definition>
+        <argsstring>(GameTime gameTime)</argsstring>
+        <name>Update</name>
+        <param>
+          <type>GameTime</type>
+          <declname>gameTime</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/marc-/Desktop/GameMAQ/GravityGame/Game1.cs" line="33" column="1" bodyfile="C:/Users/marc-/Desktop/GameMAQ/GravityGame/Game1.cs" bodystart="33" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="class_gravity_game_1_1_game1_1a47e85e605bb6044366e3352d52b22cd3" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void GravityGame.Game1.Draw</definition>
+        <argsstring>(GameTime gameTime)</argsstring>
+        <name>Draw</name>
+        <param>
+          <type>GameTime</type>
+          <declname>gameTime</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/marc-/Desktop/GameMAQ/GravityGame/Game1.cs" line="44" column="1" bodyfile="C:/Users/marc-/Desktop/GameMAQ/GravityGame/Game1.cs" bodystart="44" bodyend="51"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="94">
+        <label>Game</label>
+      </node>
+      <node id="93">
+        <label>GravityGame.Game1</label>
+        <link refid="class_gravity_game_1_1_game1"/>
+        <childnode refid="94" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="96">
+        <label>Game</label>
+      </node>
+      <node id="95">
+        <label>GravityGame.Game1</label>
+        <link refid="class_gravity_game_1_1_game1"/>
+        <childnode refid="96" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/marc-/Desktop/GameMAQ/GravityGame/Game1.cs" line="8" column="1" bodyfile="C:/Users/marc-/Desktop/GameMAQ/GravityGame/Game1.cs" bodystart="7" bodyend="52"/>
+    <listofallmembers>
+      <member refid="class_gravity_game_1_1_game1_1a9ef05bab09f83576e1c9b598585a4c7a" prot="private" virt="non-virtual"><scope>GravityGame::Game1</scope><name>_graphics</name></member>
+      <member refid="class_gravity_game_1_1_game1_1ad1a15b6d3d4c0f254f15156688d995b1" prot="private" virt="non-virtual"><scope>GravityGame::Game1</scope><name>_spriteBatch</name></member>
+      <member refid="class_gravity_game_1_1_game1_1a47e85e605bb6044366e3352d52b22cd3" prot="protected" virt="non-virtual"><scope>GravityGame::Game1</scope><name>Draw</name></member>
+      <member refid="class_gravity_game_1_1_game1_1abd666b1d278ad175f38e3fe4d11b2af5" prot="public" virt="non-virtual"><scope>GravityGame::Game1</scope><name>Game1</name></member>
+      <member refid="class_gravity_game_1_1_game1_1a19e29f9259c2d603bfa37973e6b4cd0e" prot="protected" virt="non-virtual"><scope>GravityGame::Game1</scope><name>Initialize</name></member>
+      <member refid="class_gravity_game_1_1_game1_1a7c87dc822ecc677a305752d49b3d6463" prot="protected" virt="non-virtual"><scope>GravityGame::Game1</scope><name>LoadContent</name></member>
+      <member refid="class_gravity_game_1_1_game1_1a8ff8d2c8865628c232f29b0b83314d3c" prot="protected" virt="non-virtual"><scope>GravityGame::Game1</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

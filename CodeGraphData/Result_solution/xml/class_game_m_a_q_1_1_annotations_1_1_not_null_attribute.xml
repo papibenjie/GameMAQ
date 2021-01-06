@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_game_m_a_q_1_1_annotations_1_1_not_null_attribute" kind="class" prot="public">
+    <compoundname>GameMAQ::Annotations::NotNullAttribute</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Attribute</basecompoundref>
+    <briefdescription>
+<para>Indicates that the value of the marked element can never be <computeroutput>null</computeroutput>. </para>    </briefdescription>
+    <detaileddescription>
+<para><computeroutput> [NotNull] object <ref refid="_annotations_8cs_1a710c2378b43f44cd4a9b365c85be5d6c" kindref="member">Foo()</ref> { return null; // Warning: Possible &apos;null&apos; assignment } </computeroutput></para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="189">
+        <label>Attribute</label>
+      </node>
+      <node id="188">
+        <label>GameMAQ.Annotations.NotNullAttribute</label>
+        <link refid="class_game_m_a_q_1_1_annotations_1_1_not_null_attribute"/>
+        <childnode refid="189" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="191">
+        <label>Attribute</label>
+      </node>
+      <node id="190">
+        <label>GameMAQ.Annotations.NotNullAttribute</label>
+        <link refid="class_game_m_a_q_1_1_annotations_1_1_not_null_attribute"/>
+        <childnode refid="191" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Annotations.cs" line="66" column="1" bodyfile="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Annotations.cs" bodystart="66" bodyend="66"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

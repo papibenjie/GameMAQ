@@ -1,0 +1,155 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_game_m_a_q_1_1_lib_1_1_colliders_manager" kind="class" prot="public">
+    <compoundname>GameMAQ::Lib::CollidersManager</compoundname>
+    <basecompoundref refid="class_game_m_a_q_1_1_lib_1_1_component" prot="public" virt="non-virtual">GameMAQ.Lib.Component</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_game_m_a_q_1_1_lib_1_1_colliders_manager_1a762faf8214470281e993154f1bb01d5c" prot="private" static="no" mutable="no">
+        <type>List&lt;(<ref refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_collider" kindref="compound">Collider</ref>, <ref refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_collider" kindref="compound">Collider</ref>)&gt;</type>
+        <definition>List&lt;(Collider, Collider)&gt; GameMAQ.Lib.CollidersManager._lastState</definition>
+        <argsstring></argsstring>
+        <name>_lastState</name>
+        <initializer>= new List&lt;(<ref refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_collider" kindref="compound">Collider</ref>, <ref refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_collider" kindref="compound">Collider</ref>)&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Lib/Components/Colliders/CollidersManager.cs" line="9" column="1" bodyfile="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Lib/Components/Colliders/CollidersManager.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_game_m_a_q_1_1_lib_1_1_colliders_manager_1ac7bca2d14dcb20ebc678368f4a7cc569" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>List&lt; <ref refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_collider" kindref="compound">Collider</ref> &gt;</type>
+        <definition>List&lt;Collider&gt; GameMAQ.Lib.CollidersManager.Colliders</definition>
+        <argsstring></argsstring>
+        <name>Colliders</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Lib/Components/Colliders/CollidersManager.cs" line="11" column="1" bodyfile="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Lib/Components/Colliders/CollidersManager.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_game_m_a_q_1_1_lib_1_1_colliders_manager_1a2f8bd32fc633fb5fed1ec39aaa0ba349" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>List&lt;(<ref refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_collider" kindref="compound">Collider</ref>, <ref refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_collider" kindref="compound">Collider</ref>)&gt;</type>
+        <definition>List&lt;(Collider, Collider)&gt; GameMAQ.Lib.CollidersManager.CollidersTouching</definition>
+        <argsstring></argsstring>
+        <name>CollidersTouching</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Lib/Components/Colliders/CollidersManager.cs" line="19" column="1" bodyfile="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Lib/Components/Colliders/CollidersManager.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_game_m_a_q_1_1_lib_1_1_colliders_manager_1a15ccda69a46eaba4b97c64b15df15c8d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void GameMAQ.Lib.CollidersManager.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <reimplements refid="class_game_m_a_q_1_1_lib_1_1_component_1a57b84a728bf31e18a630f6e8ceeb3984">Update</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Lib/Components/Colliders/CollidersManager.cs" line="39" column="1" bodyfile="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Lib/Components/Colliders/CollidersManager.cs" bodystart="39" bodyend="67"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="36">
+        <label>Component</label>
+        <link refid="class_game_m_a_q_1_1_lib_1_1_component"/>
+        <childnode refid="37" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="39">
+        <label>IDrawable</label>
+        <link refid="interface_game_m_a_q_1_1_lib_1_1_i_drawable"/>
+      </node>
+      <node id="35">
+        <label>GameMAQ.Lib.CollidersManager</label>
+        <link refid="class_game_m_a_q_1_1_lib_1_1_colliders_manager"/>
+        <childnode refid="36" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="38">
+        <label>IUpdatable</label>
+        <link refid="interface_game_m_a_q_1_1_lib_1_1_i_updatable"/>
+      </node>
+      <node id="40">
+        <label>IStartable&lt; T &gt;</label>
+        <link refid="interface_game_m_a_q_1_1_lib_1_1_i_startable_3_01_t_01_4"/>
+      </node>
+      <node id="37">
+        <label>IRenderable&lt; GameObject &gt;</label>
+        <link refid="interface_game_m_a_q_1_1_lib_1_1_i_renderable_3_01_t_01_4"/>
+        <childnode refid="38" relation="public-inheritance">
+        </childnode>
+        <childnode refid="39" relation="public-inheritance">
+        </childnode>
+        <childnode refid="40" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="42">
+        <label>Component</label>
+        <link refid="class_game_m_a_q_1_1_lib_1_1_component"/>
+        <childnode refid="43" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="45">
+        <label>IDrawable</label>
+        <link refid="interface_game_m_a_q_1_1_lib_1_1_i_drawable"/>
+      </node>
+      <node id="41">
+        <label>GameMAQ.Lib.CollidersManager</label>
+        <link refid="class_game_m_a_q_1_1_lib_1_1_colliders_manager"/>
+        <childnode refid="42" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="44">
+        <label>IUpdatable</label>
+        <link refid="interface_game_m_a_q_1_1_lib_1_1_i_updatable"/>
+      </node>
+      <node id="46">
+        <label>IStartable&lt; T &gt;</label>
+        <link refid="interface_game_m_a_q_1_1_lib_1_1_i_startable_3_01_t_01_4"/>
+      </node>
+      <node id="43">
+        <label>IRenderable&lt; GameObject &gt;</label>
+        <link refid="interface_game_m_a_q_1_1_lib_1_1_i_renderable_3_01_t_01_4"/>
+        <childnode refid="44" relation="public-inheritance">
+        </childnode>
+        <childnode refid="45" relation="public-inheritance">
+        </childnode>
+        <childnode refid="46" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Lib/Components/Colliders/CollidersManager.cs" line="8" column="1" bodyfile="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Lib/Components/Colliders/CollidersManager.cs" bodystart="7" bodyend="68"/>
+    <listofallmembers>
+      <member refid="class_game_m_a_q_1_1_lib_1_1_colliders_manager_1a762faf8214470281e993154f1bb01d5c" prot="private" virt="non-virtual"><scope>GameMAQ::Lib::CollidersManager</scope><name>_lastState</name></member>
+      <member refid="class_game_m_a_q_1_1_lib_1_1_colliders_manager_1ac7bca2d14dcb20ebc678368f4a7cc569" prot="public" virt="non-virtual"><scope>GameMAQ::Lib::CollidersManager</scope><name>Colliders</name></member>
+      <member refid="class_game_m_a_q_1_1_lib_1_1_colliders_manager_1a2f8bd32fc633fb5fed1ec39aaa0ba349" prot="public" virt="non-virtual"><scope>GameMAQ::Lib::CollidersManager</scope><name>CollidersTouching</name></member>
+      <member refid="class_game_m_a_q_1_1_lib_1_1_component_1ab2bc1bbb03806da98732532067db19c2" prot="public" virt="virtual"><scope>GameMAQ::Lib::CollidersManager</scope><name>Draw</name></member>
+      <member refid="class_game_m_a_q_1_1_lib_1_1_component_1a07c0d337b2397308c910314aa3dd0cb9" prot="public" virt="non-virtual"><scope>GameMAQ::Lib::CollidersManager</scope><name>GameObject</name></member>
+      <member refid="class_game_m_a_q_1_1_lib_1_1_component_1a0bc089df197426e68f8762b80586d0b3" prot="public" virt="virtual"><scope>GameMAQ::Lib::CollidersManager</scope><name>Initialize</name></member>
+      <member refid="interface_game_m_a_q_1_1_lib_1_1_i_startable_3_01_t_01_4_1aaa4bd54fdf7e85f8652a2d2660274f0f" prot="public" virt="non-virtual" ambiguityscope="GameMAQ::Lib::IRenderable&lt; T &gt;."><scope>GameMAQ::Lib::CollidersManager</scope><name>Initialize</name></member>
+      <member refid="class_game_m_a_q_1_1_lib_1_1_component_1a3201308c2577598dbef9f5f237fdc3bf" prot="public" virt="virtual"><scope>GameMAQ::Lib::CollidersManager</scope><name>Start</name></member>
+      <member refid="class_game_m_a_q_1_1_lib_1_1_colliders_manager_1a15ccda69a46eaba4b97c64b15df15c8d" prot="public" virt="virtual"><scope>GameMAQ::Lib::CollidersManager</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_game_m_a_q_1_1_program" kind="class" prot="public">
+    <compoundname>GameMAQ::Program</compoundname>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_game_m_a_q_1_1_program_1ad8eeaaaf2941b4f08a1e327b42ec94d2" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void GameMAQ.Program.Main</definition>
+        <argsstring>()</argsstring>
+        <name>Main</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Program.cs" line="14" column="1" bodyfile="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Program.cs" bodystart="14" bodyend="37"/>
+        <references refid="class_game_m_a_q_1_1_program_1a4406971624a108b5411d8811b37b31ad" compoundref="_game_m_a_q_2_program_8cs" startline="39" endline="42">GameMAQ.Program.Col1OnCollideEvent</references>
+      </memberdef>
+      <memberdef kind="function" id="class_game_m_a_q_1_1_program_1a4406971624a108b5411d8811b37b31ad" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void GameMAQ.Program.Col1OnCollideEvent</definition>
+        <argsstring>(RectangleCollider obj)</argsstring>
+        <name>Col1OnCollideEvent</name>
+        <param>
+          <type><ref refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_colliders_1_1_rectangle_collider" kindref="compound">RectangleCollider</ref></type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Program.cs" line="39" column="1" bodyfile="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Program.cs" bodystart="39" bodyend="42"/>
+        <referencedby refid="class_game_m_a_q_1_1_program_1ad8eeaaaf2941b4f08a1e327b42ec94d2" compoundref="_game_m_a_q_2_program_8cs" startline="14" endline="37">GameMAQ.Program.Main</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Program.cs" line="12" column="1" bodyfile="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Program.cs" bodystart="11" bodyend="43"/>
+    <listofallmembers>
+      <member refid="class_game_m_a_q_1_1_program_1a4406971624a108b5411d8811b37b31ad" prot="private" virt="non-virtual"><scope>GameMAQ::Program</scope><name>Col1OnCollideEvent</name></member>
+      <member refid="class_game_m_a_q_1_1_program_1ad8eeaaaf2941b4f08a1e327b42ec94d2" prot="private" virt="non-virtual"><scope>GameMAQ::Program</scope><name>Main</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

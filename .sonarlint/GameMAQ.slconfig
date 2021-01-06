@@ -1,0 +1,12 @@
+{
+  "ServerUri": "http://localhost:9000/",
+  "Organization": null,
+  "ProjectKey": "GameMAQ",
+  "ProjectName": "GameMAQ",
+  "Profiles": {
+    "CSharp": {
+      "ProfileKey": "AXbWPl-feJ1gPsL8NjPI",
+      "ProfileTimestamp": "2021-01-06T05:49:40Z"
+    }
+  }
+}

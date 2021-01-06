@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="interface_game_m_a_q_1_1_lib_1_1_i_updatable" kind="interface" prot="public">
+    <compoundname>GameMAQ::Lib::IUpdatable</compoundname>
+    <derivedcompoundref refid="interface_game_m_a_q_1_1_lib_1_1_i_renderable_3_01_t_01_4" prot="public" virt="non-virtual">GameMAQ.Lib.IRenderable&lt; T &gt;</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_game_m_a_q_1_1_lib_1_1_i_updatable_1aa4580eff83d3d652e26868693ffe24e4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void GameMAQ.Lib.IUpdatable.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <reimplementedby refid="class_game_m_a_q_1_1_lib_1_1_component_1a57b84a728bf31e18a630f6e8ceeb3984">Update</reimplementedby>
+        <reimplementedby refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_controls_1_1_follow_mouse_1a6cb156e4850efe378731e40a380f349e">Update</reimplementedby>
+        <reimplementedby refid="class_game_m_a_q_1_1_lib_1_1_colliders_manager_1a15ccda69a46eaba4b97c64b15df15c8d">Update</reimplementedby>
+        <reimplementedby refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_colliders_1_1_rectangle_collider_1a713663f0a54f1548bf7a945c3e8b1f23">Update</reimplementedby>
+        <reimplementedby refid="class_game_m_a_q_1_1_lib_1_1_game_object_1a7022f7212019dd235bc6158aa10da016">Update</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Lib/IUpdatable.cs" line="5" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="176">
+        <label>GameMAQ.Lib.Components.Controls.FollowMouse</label>
+        <link refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_controls_1_1_follow_mouse"/>
+        <childnode refid="172" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="174">
+        <label>GameMAQ.Lib.Components.Collider&lt; T &gt;</label>
+        <link refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_collider_3_01_t_01_4"/>
+        <childnode refid="172" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="179">
+        <label>GameMAQ.Lib.Components.CircleSprite</label>
+        <link refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_circle_sprite"/>
+        <childnode refid="178" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="181">
+        <label>GameMAQ.Lib.Components.Transform</label>
+        <link refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_transform"/>
+        <childnode refid="172" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="180">
+        <label>GameMAQ.Lib.Components.RectangleSprite</label>
+        <link refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_rectangle_sprite"/>
+        <childnode refid="178" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="178">
+        <label>GameMAQ.Lib.Components.ShapeSprite</label>
+        <link refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_shape_sprite"/>
+        <childnode refid="177" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="172">
+        <label>GameMAQ.Lib.Component</label>
+        <link refid="class_game_m_a_q_1_1_lib_1_1_component"/>
+        <childnode refid="171" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="182">
+        <label>GameMAQ.Lib.GameObject</label>
+        <link refid="class_game_m_a_q_1_1_lib_1_1_game_object"/>
+        <childnode refid="171" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="173">
+        <label>GameMAQ.Lib.CollidersManager</label>
+        <link refid="class_game_m_a_q_1_1_lib_1_1_colliders_manager"/>
+        <childnode refid="172" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="170">
+        <label>GameMAQ.Lib.IUpdatable</label>
+        <link refid="interface_game_m_a_q_1_1_lib_1_1_i_updatable"/>
+      </node>
+      <node id="177">
+        <label>GameMAQ.Lib.Components.CustomSprite</label>
+        <link refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_custom_sprite"/>
+        <childnode refid="172" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="175">
+        <label>GameMAQ.Lib.Components.Colliders.RectangleCollider</label>
+        <link refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_colliders_1_1_rectangle_collider"/>
+        <childnode refid="174" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="171">
+        <label>GameMAQ.Lib.IRenderable&lt; T &gt;</label>
+        <link refid="interface_game_m_a_q_1_1_lib_1_1_i_renderable_3_01_t_01_4"/>
+        <childnode refid="170" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Lib/IUpdatable.cs" line="4" column="1" bodyfile="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Lib/IUpdatable.cs" bodystart="3" bodyend="6"/>
+    <listofallmembers>
+      <member refid="interface_game_m_a_q_1_1_lib_1_1_i_updatable_1aa4580eff83d3d652e26868693ffe24e4" prot="public" virt="non-virtual"><scope>GameMAQ::Lib::IUpdatable</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

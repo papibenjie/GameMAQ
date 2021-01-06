@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespace_game_m_a_q_1_1_annotations" kind="namespace">
+    <compoundname>GameMAQ::Annotations</compoundname>
+    <innerclass refid="class_game_m_a_q_1_1_annotations_1_1_can_be_null_attribute" prot="public">GameMAQ::Annotations::CanBeNullAttribute</innerclass>
+    <innerclass refid="class_game_m_a_q_1_1_annotations_1_1_not_null_attribute" prot="public">GameMAQ::Annotations::NotNullAttribute</innerclass>
+    <innerclass refid="class_game_m_a_q_1_1_annotations_1_1_item_not_null_attribute" prot="public">GameMAQ::Annotations::ItemNotNullAttribute</innerclass>
+    <innerclass refid="class_game_m_a_q_1_1_annotations_1_1_item_can_be_null_attribute" prot="public">GameMAQ::Annotations::ItemCanBeNullAttribute</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Annotations.cs" line="35" column="1"/>
+  </compounddef>
+</doxygen>

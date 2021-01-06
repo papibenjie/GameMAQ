@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_game_m_a_q_2_program_8cs" kind="file">
+    <compoundname>Program.cs</compoundname>
+    <innerclass refid="class_game_m_a_q_1_1_program" prot="public">GameMAQ::Program</innerclass>
+    <innernamespace refid="namespace_game_m_a_q">GameMAQ</innernamespace>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="_game_m_a_q_2_program_8cs_1a52e6c51e4b366b94c5ffa816add60e52" prot="public" static="no">
+        <type>Microsoft.Xna.Framework.Color</type>
+        <definition>using Color =  Microsoft.Xna.Framework.Color</definition>
+        <argsstring></argsstring>
+        <name>Color</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Program.cs" line="7" column="1" bodyfile="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Program.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>GameMAQ.Lib;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>GameMAQ.Lib.Components;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>GameMAQ.Lib.Components.Colliders;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>GameMAQ.Lib.Components.Controls;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>Microsoft.Xna.Framework;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System;</highlight></codeline>
+<codeline lineno="7" refid="_game_m_a_q_2_program_8cs_1a52e6c51e4b366b94c5ffa816add60e52" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="_game_m_a_q_8cs_1a52e6c51e4b366b94c5ffa816add60e52" kindref="member">Color</ref><sp/>=<sp/><ref refid="_game_m_a_q_2_program_8cs_1a52e6c51e4b366b94c5ffa816add60e52" kindref="member">Microsoft.Xna.Framework.Color</ref>;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="class_game_m_a_q_1_1_lib_1_1_game_m_a_q" kindref="compound">GameMAQ</ref></highlight></codeline>
+<codeline lineno="10"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="11" refid="class_game_m_a_q_1_1_program" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_game_m_a_q_1_1_program" kindref="compound">Program</ref></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[STAThread]</highlight></codeline>
+<codeline lineno="14" refid="class_game_m_a_q_1_1_program_1ad8eeaaaf2941b4f08a1e327b42ec94d2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_game_m_a_q_1_1_program_1ad8eeaaaf2941b4f08a1e327b42ec94d2" kindref="member">Main</ref>()</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>game<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_game_m_a_q_1_1_lib_1_1_game_m_a_q" kindref="compound">Lib.GameMAQ</ref>(Color.Aqua);</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>obj<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_game_m_a_q_1_1_lib_1_1_game_object" kindref="compound">GameObject</ref>();</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>vec<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Vector2(100,<sp/>100);</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>obj.Components.Add(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_rectangle_sprite" kindref="compound">RectangleSprite</ref>(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Vector2(100,<sp/>100),<sp/><ref refid="_game_m_a_q_8cs_1a52e6c51e4b366b94c5ffa816add60e52" kindref="member">Color</ref>.Black,<sp/><ref refid="_game_m_a_q_8cs_1a52e6c51e4b366b94c5ffa816add60e52" kindref="member">Color</ref>.Transparent,<sp/>0,<sp/>5));</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>obj.Components.Add(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_controls_1_1_follow_mouse" kindref="compound">FollowMouse</ref>(-vec<sp/>/<sp/>2));</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>game.Scene.Components.Add(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_rectangle_sprite" kindref="compound">RectangleSprite</ref>(vec,<sp/><ref refid="_game_m_a_q_8cs_1a52e6c51e4b366b94c5ffa816add60e52" kindref="member">Color</ref>.Purple,<sp/><ref refid="_game_m_a_q_8cs_1a52e6c51e4b366b94c5ffa816add60e52" kindref="member">Color</ref>.Transparent,<sp/>0,<sp/>5));</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>obj.Transform.RelativePosition<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Vector2(100,<sp/>100);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>game.Scene.Transform.RelativePosition<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Vector2(100,<sp/>100);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_colliders_1_1_rectangle_collider" kindref="compound">RectangleCollider</ref><sp/>col1<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_colliders_1_1_rectangle_collider" kindref="compound">RectangleCollider</ref>(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Vector2(50,<sp/>50),<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_colliders_1_1_rectangle_collider" kindref="compound">RectangleCollider</ref><sp/>col2<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_colliders_1_1_rectangle_collider" kindref="compound">RectangleCollider</ref>(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Vector2(50,<sp/>50),<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>col1.CollideEvent<sp/>+=<sp/><ref refid="class_game_m_a_q_1_1_program_1a4406971624a108b5411d8811b37b31ad" kindref="member">Col1OnCollideEvent</ref>;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>obj.Components.Add(col1);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>game.Scene.Components.Add(col2);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>game.Run();</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39" refid="class_game_m_a_q_1_1_program_1a4406971624a108b5411d8811b37b31ad" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_game_m_a_q_1_1_program_1a4406971624a108b5411d8811b37b31ad" kindref="member">Col1OnCollideEvent</ref>(<ref refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_colliders_1_1_rectangle_collider" kindref="compound">RectangleCollider</ref><sp/>obj)</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>obj.SpriteComponent.Angle<sp/>+=<sp/>0.2;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="44"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Program.cs"/>
+  </compounddef>
+</doxygen>

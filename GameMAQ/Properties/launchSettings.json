@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "GameMAQ": {
+      "commandName": "Project",
+      "workingDirectory": "C:\\Users\\marc-\\Desktop\\GameMAQ\\GameMAQ",
+      "nativeDebugging": true
+    }
+  }
+}

@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_primitive_m_a_q_extension_8cs" kind="file">
+    <compoundname>PrimitiveMAQExtension.cs</compoundname>
+    <innerclass refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_primitive_m_a_q_extension" prot="public">GameMAQ::Lib::Components::PrimitiveMAQExtension</innerclass>
+    <innernamespace refid="namespace_game_m_a_q_1_1_lib_1_1_components">GameMAQ::Lib::Components</innernamespace>
+    <innernamespace refid="namespace_microsoft_1_1_xna_1_1_framework_1_1_graphics">Microsoft::Xna::Framework::Graphics</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>Microsoft.Xna.Framework;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>Microsoft.Xna.Framework.Graphics;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Linq;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">GameMAQ.Lib.Components</highlight></codeline>
+<codeline lineno="6"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="7" refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_primitive_m_a_q_extension" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_primitive_m_a_q_extension" kindref="compound">PrimitiveMAQExtension</ref></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_primitive_m_a_q_extension_1a15a5a152add923bec5500a54f94890e1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_primitive_m_a_q_extension_1a15a5a152add923bec5500a54f94890e1" kindref="member">DrawRectangleMAQ</ref>(</highlight><highlight class="keyword">this</highlight><highlight class="normal"><sp/>SpriteBatch<sp/>spriteBatch,<sp/><ref refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_rectangle_sprite" kindref="compound">RectangleSprite</ref><sp/>sprite)</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>pos<sp/>=<sp/>sprite.GameObject.Transform.AbsolutePosition;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>size<sp/>=<sp/>sprite.Size;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>pix<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Texture2D(spriteBatch.GraphicsDevice,<sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)size.X,<sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)size.Y,<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">,<sp/>SurfaceFormat.Color);</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pix.SetData(Enumerable.Repeat(sprite.FillColor,<sp/>(int)size.X<sp/>*<sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)size.Y).Select(</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(color,<sp/>idx)<sp/>=&gt;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>col<sp/>=<sp/>idx<sp/>%<sp/>(int)size.X;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>row<sp/>=<sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)(idx<sp/>/<sp/>size.X);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>thick<sp/>=<sp/>sprite.Thickness;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(col<sp/>&lt;<sp/>thick<sp/>||<sp/>col<sp/>&gt;<sp/>size.X<sp/>-<sp/>thick<sp/>||<sp/>row<sp/>&lt;<sp/>thick<sp/>||<sp/>row<sp/>&gt;<sp/>size.Y<sp/>-<sp/>thick)</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>sprite.BorderColor;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>sprite.FillColor;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}).ToArray());</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>dest<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Rectangle(sprite.<ref refid="class_game_m_a_q_1_1_lib_1_1_component_1a07c0d337b2397308c910314aa3dd0cb9" kindref="member">GameObject</ref>.<ref refid="class_game_m_a_q_1_1_lib_1_1_game_object_1a07e27efeb636e921491e67d9f049630a" kindref="member">Transform</ref>.AbsolutePosition.ToPoint(),<sp/>sprite.Size.ToPoint());</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>spriteBatch.Draw(pix,<sp/>dest,<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Rectangle(0,<sp/>0,<sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)size.X,<sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)size.Y),<sp/>Color.White,<sp/>(float)sprite.<ref refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_rectangle_sprite_1a000544135be68b48c6c05cc636c7010f" kindref="member">Angle</ref>,</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sprite.<ref refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_rectangle_sprite_1a01ff909b2df8b65ede82e38431b20449" kindref="member">Origin</ref>,<sp/>SpriteEffects.None,<sp/>0.0f);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="34"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Lib/Components/Sprites/PrimitiveMAQExtension.cs"/>
+  </compounddef>
+</doxygen>

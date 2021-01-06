@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_game_m_a_q_1_1_lib_1_1_components_1_1_primitive_m_a_q_extension" kind="class" prot="public">
+    <compoundname>GameMAQ::Lib::Components::PrimitiveMAQExtension</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_game_m_a_q_1_1_lib_1_1_components_1_1_primitive_m_a_q_extension_1a15a5a152add923bec5500a54f94890e1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void GameMAQ.Lib.Components.PrimitiveMAQExtension.DrawRectangleMAQ</definition>
+        <argsstring>(this SpriteBatch spriteBatch, RectangleSprite sprite)</argsstring>
+        <name>DrawRectangleMAQ</name>
+        <param>
+          <type>this SpriteBatch</type>
+          <declname>spriteBatch</declname>
+        </param>
+        <param>
+          <type><ref refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_rectangle_sprite" kindref="compound">RectangleSprite</ref></type>
+          <declname>sprite</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Lib/Components/Sprites/PrimitiveMAQExtension.cs" line="10" column="1" bodyfile="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Lib/Components/Sprites/PrimitiveMAQExtension.cs" bodystart="10" bodyend="32"/>
+        <references refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_rectangle_sprite_1a000544135be68b48c6c05cc636c7010f" compoundref="_shape_sprite_8cs" startline="22">GameMAQ.Lib.Components.RectangleSprite.Angle</references>
+        <references refid="class_game_m_a_q_1_1_lib_1_1_component_1a07c0d337b2397308c910314aa3dd0cb9" compoundref="_component_8cs" startline="5">GameMAQ.Lib.Component.GameObject</references>
+        <references refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_rectangle_sprite_1a01ff909b2df8b65ede82e38431b20449" compoundref="_shape_sprite_8cs" startline="23">GameMAQ.Lib.Components.RectangleSprite.Origin</references>
+        <references refid="class_game_m_a_q_1_1_lib_1_1_game_object_1a07e27efeb636e921491e67d9f049630a" compoundref="_game_object_8cs" startline="15">GameMAQ.Lib.GameObject.Transform</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Lib/Components/Sprites/PrimitiveMAQExtension.cs" line="8" column="1" bodyfile="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Lib/Components/Sprites/PrimitiveMAQExtension.cs" bodystart="7" bodyend="33"/>
+    <listofallmembers>
+      <member refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_primitive_m_a_q_extension_1a15a5a152add923bec5500a54f94890e1" prot="public" virt="non-virtual"><scope>GameMAQ::Lib::Components::PrimitiveMAQExtension</scope><name>DrawRectangleMAQ</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

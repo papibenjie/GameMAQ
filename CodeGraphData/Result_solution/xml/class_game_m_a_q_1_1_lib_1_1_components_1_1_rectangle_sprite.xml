@@ -1,0 +1,225 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_game_m_a_q_1_1_lib_1_1_components_1_1_rectangle_sprite" kind="class" prot="public">
+    <compoundname>GameMAQ::Lib::Components::RectangleSprite</compoundname>
+    <basecompoundref refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_shape_sprite" prot="public" virt="non-virtual">GameMAQ.Lib.Components.ShapeSprite</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_game_m_a_q_1_1_lib_1_1_components_1_1_rectangle_sprite_1addca076a9cf67fe20e2cbf9ce3fd012e" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Vector2</type>
+        <definition>Vector2 GameMAQ.Lib.Components.RectangleSprite.Size</definition>
+        <argsstring></argsstring>
+        <name>Size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Lib/Components/Sprites/ShapeSprite.cs" line="21" column="1" bodyfile="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Lib/Components/Sprites/ShapeSprite.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_game_m_a_q_1_1_lib_1_1_components_1_1_rectangle_sprite_1a000544135be68b48c6c05cc636c7010f" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double GameMAQ.Lib.Components.RectangleSprite.Angle</definition>
+        <argsstring></argsstring>
+        <name>Angle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Lib/Components/Sprites/ShapeSprite.cs" line="22" column="1" bodyfile="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Lib/Components/Sprites/ShapeSprite.cs" bodystart="22" bodyend="-1"/>
+        <referencedby refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_primitive_m_a_q_extension_1a15a5a152add923bec5500a54f94890e1" compoundref="_primitive_m_a_q_extension_8cs" startline="10" endline="32">GameMAQ.Lib.Components.PrimitiveMAQExtension.DrawRectangleMAQ</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_game_m_a_q_1_1_lib_1_1_components_1_1_rectangle_sprite_1a01ff909b2df8b65ede82e38431b20449" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Vector2</type>
+        <definition>Vector2 GameMAQ.Lib.Components.RectangleSprite.Origin</definition>
+        <argsstring></argsstring>
+        <name>Origin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Lib/Components/Sprites/ShapeSprite.cs" line="23" column="1" bodyfile="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Lib/Components/Sprites/ShapeSprite.cs" bodystart="23" bodyend="-1"/>
+        <referencedby refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_primitive_m_a_q_extension_1a15a5a152add923bec5500a54f94890e1" compoundref="_primitive_m_a_q_extension_8cs" startline="10" endline="32">GameMAQ.Lib.Components.PrimitiveMAQExtension.DrawRectangleMAQ</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_game_m_a_q_1_1_lib_1_1_components_1_1_rectangle_sprite_1aa2906ee5f9cc9bf0b38e265c5ecc6b90" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>GameMAQ.Lib.Components.RectangleSprite.RectangleSprite</definition>
+        <argsstring>(Vector2 size, Color borderColor, Color fillColor, float angle, float thickness=1, Vector2 origin=default(Vector2))</argsstring>
+        <name>RectangleSprite</name>
+        <param>
+          <type>Vector2</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type><ref refid="_game_m_a_q_8cs_1a52e6c51e4b366b94c5ffa816add60e52" kindref="member">Color</ref></type>
+          <declname>borderColor</declname>
+        </param>
+        <param>
+          <type><ref refid="_game_m_a_q_8cs_1a52e6c51e4b366b94c5ffa816add60e52" kindref="member">Color</ref></type>
+          <declname>fillColor</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>angle</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>thickness</declname>
+          <defval>1</defval>
+        </param>
+        <param>
+          <type>Vector2</type>
+          <declname>origin</declname>
+          <defval>default(Vector2)</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Lib/Components/Sprites/ShapeSprite.cs" line="25" column="1" bodyfile="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Lib/Components/Sprites/ShapeSprite.cs" bodystart="25" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="class_game_m_a_q_1_1_lib_1_1_components_1_1_rectangle_sprite_1ab3a123610b1e7e76edfe118ef5faac71" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void GameMAQ.Lib.Components.RectangleSprite.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <reimplements refid="class_game_m_a_q_1_1_lib_1_1_component_1a3201308c2577598dbef9f5f237fdc3bf">Start</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Lib/Components/Sprites/ShapeSprite.cs" line="32" column="1" bodyfile="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Lib/Components/Sprites/ShapeSprite.cs" bodystart="32" bodyend="36"/>
+        <references refid="class_game_m_a_q_1_1_lib_1_1_game_object_1aa4765ceca373c4b104a0a6ae629ac2e5" compoundref="_game_object_8cs" startline="13">GameMAQ.Lib.GameObject.Game</references>
+        <references refid="class_game_m_a_q_1_1_lib_1_1_game_m_a_q_1adb7458ef78ea8109a6fc6a8534430540" compoundref="_game_m_a_q_8cs" startline="14">GameMAQ.Lib.GameMAQ.SpriteBatch</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="214">
+        <label>CustomSprite</label>
+        <link refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_custom_sprite"/>
+        <childnode refid="215" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="215">
+        <label>Component</label>
+        <link refid="class_game_m_a_q_1_1_lib_1_1_component"/>
+        <childnode refid="216" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="212">
+        <label>GameMAQ.Lib.Components.RectangleSprite</label>
+        <link refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_rectangle_sprite"/>
+        <childnode refid="213" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="218">
+        <label>IDrawable</label>
+        <link refid="interface_game_m_a_q_1_1_lib_1_1_i_drawable"/>
+      </node>
+      <node id="217">
+        <label>IUpdatable</label>
+        <link refid="interface_game_m_a_q_1_1_lib_1_1_i_updatable"/>
+      </node>
+      <node id="219">
+        <label>IStartable&lt; T &gt;</label>
+        <link refid="interface_game_m_a_q_1_1_lib_1_1_i_startable_3_01_t_01_4"/>
+      </node>
+      <node id="216">
+        <label>IRenderable&lt; GameObject &gt;</label>
+        <link refid="interface_game_m_a_q_1_1_lib_1_1_i_renderable_3_01_t_01_4"/>
+        <childnode refid="217" relation="public-inheritance">
+        </childnode>
+        <childnode refid="218" relation="public-inheritance">
+        </childnode>
+        <childnode refid="219" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="213">
+        <label>ShapeSprite</label>
+        <link refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_shape_sprite"/>
+        <childnode refid="214" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="222">
+        <label>CustomSprite</label>
+        <link refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_custom_sprite"/>
+        <childnode refid="223" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="223">
+        <label>Component</label>
+        <link refid="class_game_m_a_q_1_1_lib_1_1_component"/>
+        <childnode refid="224" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="220">
+        <label>GameMAQ.Lib.Components.RectangleSprite</label>
+        <link refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_rectangle_sprite"/>
+        <childnode refid="221" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="226">
+        <label>IDrawable</label>
+        <link refid="interface_game_m_a_q_1_1_lib_1_1_i_drawable"/>
+      </node>
+      <node id="225">
+        <label>IUpdatable</label>
+        <link refid="interface_game_m_a_q_1_1_lib_1_1_i_updatable"/>
+      </node>
+      <node id="227">
+        <label>IStartable&lt; T &gt;</label>
+        <link refid="interface_game_m_a_q_1_1_lib_1_1_i_startable_3_01_t_01_4"/>
+      </node>
+      <node id="224">
+        <label>IRenderable&lt; GameObject &gt;</label>
+        <link refid="interface_game_m_a_q_1_1_lib_1_1_i_renderable_3_01_t_01_4"/>
+        <childnode refid="225" relation="public-inheritance">
+        </childnode>
+        <childnode refid="226" relation="public-inheritance">
+        </childnode>
+        <childnode refid="227" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="221">
+        <label>ShapeSprite</label>
+        <link refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_shape_sprite"/>
+        <childnode refid="222" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Lib/Components/Sprites/ShapeSprite.cs" line="20" column="1" bodyfile="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Lib/Components/Sprites/ShapeSprite.cs" bodystart="19" bodyend="37"/>
+    <listofallmembers>
+      <member refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_rectangle_sprite_1a000544135be68b48c6c05cc636c7010f" prot="public" virt="non-virtual"><scope>GameMAQ::Lib::Components::RectangleSprite</scope><name>Angle</name></member>
+      <member refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_shape_sprite_1a4bd02dc9ba0911818f8330eae09e0256" prot="public" virt="non-virtual"><scope>GameMAQ::Lib::Components::RectangleSprite</scope><name>BorderColor</name></member>
+      <member refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_custom_sprite_1a9c20153102764aaf0abae51aec74c10f" prot="public" virt="virtual"><scope>GameMAQ::Lib::Components::RectangleSprite</scope><name>Draw</name></member>
+      <member refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_custom_sprite_1a7faf03d1e4ca9924380c76dd04db254c" prot="public" virt="non-virtual"><scope>GameMAQ::Lib::Components::RectangleSprite</scope><name>Drawer</name></member>
+      <member refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_shape_sprite_1ab32199e271e25d426cce7807449cf566" prot="public" virt="non-virtual"><scope>GameMAQ::Lib::Components::RectangleSprite</scope><name>FillColor</name></member>
+      <member refid="class_game_m_a_q_1_1_lib_1_1_component_1a07c0d337b2397308c910314aa3dd0cb9" prot="public" virt="non-virtual"><scope>GameMAQ::Lib::Components::RectangleSprite</scope><name>GameObject</name></member>
+      <member refid="class_game_m_a_q_1_1_lib_1_1_component_1a0bc089df197426e68f8762b80586d0b3" prot="public" virt="virtual"><scope>GameMAQ::Lib::Components::RectangleSprite</scope><name>Initialize</name></member>
+      <member refid="interface_game_m_a_q_1_1_lib_1_1_i_startable_3_01_t_01_4_1aaa4bd54fdf7e85f8652a2d2660274f0f" prot="public" virt="non-virtual" ambiguityscope="GameMAQ::Lib::IRenderable&lt; T &gt;."><scope>GameMAQ::Lib::Components::RectangleSprite</scope><name>Initialize</name></member>
+      <member refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_rectangle_sprite_1a01ff909b2df8b65ede82e38431b20449" prot="public" virt="non-virtual"><scope>GameMAQ::Lib::Components::RectangleSprite</scope><name>Origin</name></member>
+      <member refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_rectangle_sprite_1aa2906ee5f9cc9bf0b38e265c5ecc6b90" prot="public" virt="non-virtual"><scope>GameMAQ::Lib::Components::RectangleSprite</scope><name>RectangleSprite</name></member>
+      <member refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_shape_sprite_1a202bf6044db6b1e1458782b6059ddc0b" prot="public" virt="non-virtual"><scope>GameMAQ::Lib::Components::RectangleSprite</scope><name>ShapeSprite</name></member>
+      <member refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_rectangle_sprite_1addca076a9cf67fe20e2cbf9ce3fd012e" prot="public" virt="non-virtual"><scope>GameMAQ::Lib::Components::RectangleSprite</scope><name>Size</name></member>
+      <member refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_rectangle_sprite_1ab3a123610b1e7e76edfe118ef5faac71" prot="public" virt="virtual"><scope>GameMAQ::Lib::Components::RectangleSprite</scope><name>Start</name></member>
+      <member refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_shape_sprite_1ac75a7a886f24c7ae896fe5fe270ce64a" prot="public" virt="non-virtual"><scope>GameMAQ::Lib::Components::RectangleSprite</scope><name>Thickness</name></member>
+      <member refid="class_game_m_a_q_1_1_lib_1_1_component_1a57b84a728bf31e18a630f6e8ceeb3984" prot="public" virt="virtual"><scope>GameMAQ::Lib::Components::RectangleSprite</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespace_game_m_a_q_1_1_lib_1_1_components" kind="namespace">
+    <compoundname>GameMAQ::Lib::Components</compoundname>
+    <innerclass refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_collider_3_01_t_01_4" prot="public">GameMAQ::Lib::Components::Collider&lt; T &gt;</innerclass>
+    <innerclass refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_collider" prot="public">GameMAQ::Lib::Components::Collider</innerclass>
+    <innerclass refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_custom_sprite" prot="public">GameMAQ::Lib::Components::CustomSprite</innerclass>
+    <innerclass refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_primitive_m_a_q_extension" prot="public">GameMAQ::Lib::Components::PrimitiveMAQExtension</innerclass>
+    <innerclass refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_shape_sprite" prot="public">GameMAQ::Lib::Components::ShapeSprite</innerclass>
+    <innerclass refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_rectangle_sprite" prot="public">GameMAQ::Lib::Components::RectangleSprite</innerclass>
+    <innerclass refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_circle_sprite" prot="public">GameMAQ::Lib::Components::CircleSprite</innerclass>
+    <innerclass refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_transform" prot="public">GameMAQ::Lib::Components::Transform</innerclass>
+    <innernamespace refid="namespace_game_m_a_q_1_1_lib_1_1_components_1_1_colliders">GameMAQ::Lib::Components::Colliders</innernamespace>
+    <innernamespace refid="namespace_game_m_a_q_1_1_lib_1_1_components_1_1_controls">GameMAQ::Lib::Components::Controls</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Lib/Components/Colliders/Collider.cs" line="5" column="1"/>
+  </compounddef>
+</doxygen>

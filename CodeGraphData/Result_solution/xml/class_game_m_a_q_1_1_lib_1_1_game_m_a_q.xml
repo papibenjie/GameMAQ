@@ -1,0 +1,223 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_game_m_a_q_1_1_lib_1_1_game_m_a_q" kind="class" prot="public">
+    <compoundname>GameMAQ::Lib::GameMAQ</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Game</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_game_m_a_q_1_1_lib_1_1_game_m_a_q_1ad72b03b7cea338701cab667d0bd23022" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_game_m_a_q_1_1_lib_1_1_game_object" kindref="compound">GameObject</ref></type>
+        <definition>GameObject GameMAQ.Lib.GameMAQ.Scene</definition>
+        <argsstring></argsstring>
+        <name>Scene</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Lib/GameMAQ.cs" line="10" column="1" bodyfile="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Lib/GameMAQ.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_game_m_a_q_1_1_lib_1_1_game_m_a_q_1a36e470e0f806bb8f536dc88c1cc61329" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>GraphicsDeviceManager</type>
+        <definition>GraphicsDeviceManager GameMAQ.Lib.GameMAQ.Graphics</definition>
+        <argsstring></argsstring>
+        <name>Graphics</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Lib/GameMAQ.cs" line="11" column="1" bodyfile="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Lib/GameMAQ.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_game_m_a_q_1_1_lib_1_1_game_m_a_q_1a77355bcd5990bfd7348cf5aba8579b35" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="_game_m_a_q_8cs_1a52e6c51e4b366b94c5ffa816add60e52" kindref="member">Color</ref></type>
+        <definition>Color GameMAQ.Lib.GameMAQ.BackColor</definition>
+        <argsstring></argsstring>
+        <name>BackColor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Lib/GameMAQ.cs" line="12" column="1" bodyfile="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Lib/GameMAQ.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_game_m_a_q_1_1_lib_1_1_game_m_a_q_1adb7458ef78ea8109a6fc6a8534430540" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>SpriteBatch</type>
+        <definition>SpriteBatch GameMAQ.Lib.GameMAQ.SpriteBatch</definition>
+        <argsstring></argsstring>
+        <name>SpriteBatch</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Lib/GameMAQ.cs" line="14" column="1" bodyfile="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Lib/GameMAQ.cs" bodystart="14" bodyend="-1"/>
+        <referencedby refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_rectangle_sprite_1ab3a123610b1e7e76edfe118ef5faac71" compoundref="_shape_sprite_8cs" startline="32" endline="36">GameMAQ.Lib.Components.RectangleSprite.Start</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_game_m_a_q_1_1_lib_1_1_game_m_a_q_1a6451ca9fc63cd78e543b14aa6d5001d0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>GameMAQ.Lib.GameMAQ.GameMAQ</definition>
+        <argsstring>(Color backColor, string title=&quot;GameMAQ&quot;, Size?size=null)</argsstring>
+        <name>GameMAQ</name>
+        <param>
+          <type><ref refid="_game_m_a_q_8cs_1a52e6c51e4b366b94c5ffa816add60e52" kindref="member">Color</ref></type>
+          <declname>backColor</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>title</declname>
+          <defval>&quot;GameMAQ&quot;</defval>
+        </param>
+        <param>
+          <type>Size?</type>
+          <declname>size</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Lib/GameMAQ.cs" line="16" column="1" bodyfile="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Lib/GameMAQ.cs" bodystart="16" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="class_game_m_a_q_1_1_lib_1_1_game_m_a_q_1abfeffcff884fd49f59cd8ccbe0d96821" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GameMAQ.Lib.GameMAQ.ResizeWindow</definition>
+        <argsstring>(Size size)</argsstring>
+        <name>ResizeWindow</name>
+        <param>
+          <type>Size</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Lib/GameMAQ.cs" line="27" column="1" bodyfile="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Lib/GameMAQ.cs" bodystart="27" bodyend="32"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_game_m_a_q_1_1_lib_1_1_game_m_a_q_1aea186fd6718e9f3b266f13714936b1a7" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void GameMAQ.Lib.GameMAQ.LoadContent</definition>
+        <argsstring>()</argsstring>
+        <name>LoadContent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Lib/GameMAQ.cs" line="34" column="1" bodyfile="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Lib/GameMAQ.cs" bodystart="34" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="class_game_m_a_q_1_1_lib_1_1_game_m_a_q_1aec544033151b76df89dc04067cdbc3f5" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void GameMAQ.Lib.GameMAQ.Initialize</definition>
+        <argsstring>()</argsstring>
+        <name>Initialize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Lib/GameMAQ.cs" line="42" column="1" bodyfile="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Lib/GameMAQ.cs" bodystart="42" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="class_game_m_a_q_1_1_lib_1_1_game_m_a_q_1af6fca2e8b681468ec3f5e22df6fe7dd0" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void GameMAQ.Lib.GameMAQ.Draw</definition>
+        <argsstring>(GameTime gameTime)</argsstring>
+        <name>Draw</name>
+        <param>
+          <type>GameTime</type>
+          <declname>gameTime</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Lib/GameMAQ.cs" line="48" column="1" bodyfile="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Lib/GameMAQ.cs" bodystart="48" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="class_game_m_a_q_1_1_lib_1_1_game_m_a_q_1a046654edeaf446fc1fdd2437b3b364dd" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void GameMAQ.Lib.GameMAQ.BeginRun</definition>
+        <argsstring>()</argsstring>
+        <name>BeginRun</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Lib/GameMAQ.cs" line="56" column="1" bodyfile="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Lib/GameMAQ.cs" bodystart="56" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="class_game_m_a_q_1_1_lib_1_1_game_m_a_q_1a843fea315db76bdf26ef700f252924f0" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void GameMAQ.Lib.GameMAQ.Update</definition>
+        <argsstring>(GameTime gameTime)</argsstring>
+        <name>Update</name>
+        <param>
+          <type>GameTime</type>
+          <declname>gameTime</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Lib/GameMAQ.cs" line="62" column="1" bodyfile="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Lib/GameMAQ.cs" bodystart="62" bodyend="66"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="101">
+        <label>GameMAQ.Lib.GameMAQ</label>
+        <link refid="class_game_m_a_q_1_1_lib_1_1_game_m_a_q"/>
+        <childnode refid="102" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="102">
+        <label>Game</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="103">
+        <label>GameMAQ.Lib.GameMAQ</label>
+        <link refid="class_game_m_a_q_1_1_lib_1_1_game_m_a_q"/>
+        <childnode refid="104" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="104">
+        <label>Game</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Lib/GameMAQ.cs" line="9" column="1" bodyfile="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Lib/GameMAQ.cs" bodystart="8" bodyend="67"/>
+    <listofallmembers>
+      <member refid="class_game_m_a_q_1_1_lib_1_1_game_m_a_q_1a77355bcd5990bfd7348cf5aba8579b35" prot="public" virt="non-virtual"><scope>GameMAQ::Lib::GameMAQ</scope><name>BackColor</name></member>
+      <member refid="class_game_m_a_q_1_1_lib_1_1_game_m_a_q_1a046654edeaf446fc1fdd2437b3b364dd" prot="protected" virt="non-virtual"><scope>GameMAQ::Lib::GameMAQ</scope><name>BeginRun</name></member>
+      <member refid="class_game_m_a_q_1_1_lib_1_1_game_m_a_q_1af6fca2e8b681468ec3f5e22df6fe7dd0" prot="protected" virt="non-virtual"><scope>GameMAQ::Lib::GameMAQ</scope><name>Draw</name></member>
+      <member refid="class_game_m_a_q_1_1_lib_1_1_game_m_a_q_1a6451ca9fc63cd78e543b14aa6d5001d0" prot="public" virt="non-virtual"><scope>GameMAQ::Lib::GameMAQ</scope><name>GameMAQ</name></member>
+      <member refid="class_game_m_a_q_1_1_lib_1_1_game_m_a_q_1a36e470e0f806bb8f536dc88c1cc61329" prot="public" virt="non-virtual"><scope>GameMAQ::Lib::GameMAQ</scope><name>Graphics</name></member>
+      <member refid="class_game_m_a_q_1_1_lib_1_1_game_m_a_q_1aec544033151b76df89dc04067cdbc3f5" prot="protected" virt="non-virtual"><scope>GameMAQ::Lib::GameMAQ</scope><name>Initialize</name></member>
+      <member refid="class_game_m_a_q_1_1_lib_1_1_game_m_a_q_1aea186fd6718e9f3b266f13714936b1a7" prot="protected" virt="non-virtual"><scope>GameMAQ::Lib::GameMAQ</scope><name>LoadContent</name></member>
+      <member refid="class_game_m_a_q_1_1_lib_1_1_game_m_a_q_1abfeffcff884fd49f59cd8ccbe0d96821" prot="public" virt="non-virtual"><scope>GameMAQ::Lib::GameMAQ</scope><name>ResizeWindow</name></member>
+      <member refid="class_game_m_a_q_1_1_lib_1_1_game_m_a_q_1ad72b03b7cea338701cab667d0bd23022" prot="public" virt="non-virtual"><scope>GameMAQ::Lib::GameMAQ</scope><name>Scene</name></member>
+      <member refid="class_game_m_a_q_1_1_lib_1_1_game_m_a_q_1adb7458ef78ea8109a6fc6a8534430540" prot="public" virt="non-virtual"><scope>GameMAQ::Lib::GameMAQ</scope><name>SpriteBatch</name></member>
+      <member refid="class_game_m_a_q_1_1_lib_1_1_game_m_a_q_1a843fea315db76bdf26ef700f252924f0" prot="protected" virt="non-virtual"><scope>GameMAQ::Lib::GameMAQ</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

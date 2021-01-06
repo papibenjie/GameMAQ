@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_game_m_a_q_1_1_annotations_1_1_item_can_be_null_attribute" kind="class" prot="public">
+    <compoundname>GameMAQ::Annotations::ItemCanBeNullAttribute</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Attribute</basecompoundref>
+    <briefdescription>
+<para>Can be applied to symbols of types derived from IEnumerable as well as to symbols of Task and Lazy classes to indicate that the value of a collection item, of the Task.Result property or of the Lazy.Value property can be null. </para>    </briefdescription>
+    <detaileddescription>
+<para><computeroutput> public void Foo([ItemCanBeNull]List&lt;string&gt; books) { foreach (var book in books) { // Warning: Possible &apos;System.NullReferenceException&apos; Console.WriteLine(book.ToUpper()); } } </computeroutput></para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="163">
+        <label>Attribute</label>
+      </node>
+      <node id="162">
+        <label>GameMAQ.Annotations.ItemCanBeNullAttribute</label>
+        <link refid="class_game_m_a_q_1_1_annotations_1_1_item_can_be_null_attribute"/>
+        <childnode refid="163" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="165">
+        <label>Attribute</label>
+      </node>
+      <node id="164">
+        <label>GameMAQ.Annotations.ItemCanBeNullAttribute</label>
+        <link refid="class_game_m_a_q_1_1_annotations_1_1_item_can_be_null_attribute"/>
+        <childnode refid="165" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Annotations.cs" line="105" column="1" bodyfile="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Annotations.cs" bodystart="105" bodyend="105"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

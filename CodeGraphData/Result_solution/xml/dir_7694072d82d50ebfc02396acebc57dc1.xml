@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_7694072d82d50ebfc02396acebc57dc1" kind="dir">
+    <compoundname>C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Lib/Components</compoundname>
+    <innerdir refid="dir_36fad6cf4418e0d0490374e1be8bf792">C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Lib/Components/Colliders</innerdir>
+    <innerdir refid="dir_4ee8623d53813dd163b2aa8bbc0d9469">C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Lib/Components/Controls</innerdir>
+    <innerdir refid="dir_6dcfb29e0ae6dd0b393c5824c8c77f68">C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Lib/Components/Sprites</innerdir>
+    <innerfile refid="_transform_8cs">Transform.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Lib/Components/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_game_m_a_q_1_1_annotations_1_1_can_be_null_attribute" kind="class" prot="public">
+    <compoundname>GameMAQ::Annotations::CanBeNullAttribute</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Attribute</basecompoundref>
+    <briefdescription>
+<para>Indicates that the value of the marked element could be <computeroutput>null</computeroutput> sometimes, so checking for <computeroutput>null</computeroutput> is required before its usage. </para>    </briefdescription>
+    <detaileddescription>
+<para><computeroutput> [CanBeNull] object Test() =&gt; null;</computeroutput></para><para><computeroutput>void UseTest() { var p = Test(); var s = p.ToString(); // Warning: Possible &apos;System.NullReferenceException&apos; } </computeroutput></para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Attribute</label>
+      </node>
+      <node id="0">
+        <label>GameMAQ.Annotations.CanBeNullAttribute</label>
+        <link refid="class_game_m_a_q_1_1_annotations_1_1_can_be_null_attribute"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>Attribute</label>
+      </node>
+      <node id="2">
+        <label>GameMAQ.Annotations.CanBeNullAttribute</label>
+        <link refid="class_game_m_a_q_1_1_annotations_1_1_can_be_null_attribute"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Annotations.cs" line="52" column="1" bodyfile="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Annotations.cs" bodystart="52" bodyend="52"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

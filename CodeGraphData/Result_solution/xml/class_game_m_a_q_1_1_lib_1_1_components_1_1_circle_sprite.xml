@@ -1,0 +1,189 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_game_m_a_q_1_1_lib_1_1_components_1_1_circle_sprite" kind="class" prot="public">
+    <compoundname>GameMAQ::Lib::Components::CircleSprite</compoundname>
+    <basecompoundref refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_shape_sprite" prot="public" virt="non-virtual">GameMAQ.Lib.Components.ShapeSprite</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_game_m_a_q_1_1_lib_1_1_components_1_1_circle_sprite_1acd775136b24066a546c1af461469d7fb" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int GameMAQ.Lib.Components.CircleSprite.Radius</definition>
+        <argsstring></argsstring>
+        <name>Radius</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Lib/Components/Sprites/ShapeSprite.cs" line="41" column="1" bodyfile="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Lib/Components/Sprites/ShapeSprite.cs" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_game_m_a_q_1_1_lib_1_1_components_1_1_circle_sprite_1acdd6b5195733d62388bbdb85a584b0d5" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int GameMAQ.Lib.Components.CircleSprite.Sides</definition>
+        <argsstring></argsstring>
+        <name>Sides</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Lib/Components/Sprites/ShapeSprite.cs" line="42" column="1" bodyfile="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Lib/Components/Sprites/ShapeSprite.cs" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_game_m_a_q_1_1_lib_1_1_components_1_1_circle_sprite_1a3856d109f8fc9b2a0403604696d44dee" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>GameMAQ.Lib.Components.CircleSprite.CircleSprite</definition>
+        <argsstring>(int radius, Color borderColor, Color fillColor, int sides=25, float thickness=1)</argsstring>
+        <name>CircleSprite</name>
+        <param>
+          <type>int</type>
+          <declname>radius</declname>
+        </param>
+        <param>
+          <type><ref refid="_game_m_a_q_8cs_1a52e6c51e4b366b94c5ffa816add60e52" kindref="member">Color</ref></type>
+          <declname>borderColor</declname>
+        </param>
+        <param>
+          <type><ref refid="_game_m_a_q_8cs_1a52e6c51e4b366b94c5ffa816add60e52" kindref="member">Color</ref></type>
+          <declname>fillColor</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>sides</declname>
+          <defval>25</defval>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>thickness</declname>
+          <defval>1</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Lib/Components/Sprites/ShapeSprite.cs" line="44" column="1" bodyfile="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Lib/Components/Sprites/ShapeSprite.cs" bodystart="44" bodyend="52"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="6">
+        <label>CustomSprite</label>
+        <link refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_custom_sprite"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>GameMAQ.Lib.Components.CircleSprite</label>
+        <link refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_circle_sprite"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>Component</label>
+        <link refid="class_game_m_a_q_1_1_lib_1_1_component"/>
+        <childnode refid="8" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>IDrawable</label>
+        <link refid="interface_game_m_a_q_1_1_lib_1_1_i_drawable"/>
+      </node>
+      <node id="9">
+        <label>IUpdatable</label>
+        <link refid="interface_game_m_a_q_1_1_lib_1_1_i_updatable"/>
+      </node>
+      <node id="11">
+        <label>IStartable&lt; T &gt;</label>
+        <link refid="interface_game_m_a_q_1_1_lib_1_1_i_startable_3_01_t_01_4"/>
+      </node>
+      <node id="8">
+        <label>IRenderable&lt; GameObject &gt;</label>
+        <link refid="interface_game_m_a_q_1_1_lib_1_1_i_renderable_3_01_t_01_4"/>
+        <childnode refid="9" relation="public-inheritance">
+        </childnode>
+        <childnode refid="10" relation="public-inheritance">
+        </childnode>
+        <childnode refid="11" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>ShapeSprite</label>
+        <link refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_shape_sprite"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="14">
+        <label>CustomSprite</label>
+        <link refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_custom_sprite"/>
+        <childnode refid="15" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>GameMAQ.Lib.Components.CircleSprite</label>
+        <link refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_circle_sprite"/>
+        <childnode refid="13" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>Component</label>
+        <link refid="class_game_m_a_q_1_1_lib_1_1_component"/>
+        <childnode refid="16" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>IDrawable</label>
+        <link refid="interface_game_m_a_q_1_1_lib_1_1_i_drawable"/>
+      </node>
+      <node id="17">
+        <label>IUpdatable</label>
+        <link refid="interface_game_m_a_q_1_1_lib_1_1_i_updatable"/>
+      </node>
+      <node id="19">
+        <label>IStartable&lt; T &gt;</label>
+        <link refid="interface_game_m_a_q_1_1_lib_1_1_i_startable_3_01_t_01_4"/>
+      </node>
+      <node id="16">
+        <label>IRenderable&lt; GameObject &gt;</label>
+        <link refid="interface_game_m_a_q_1_1_lib_1_1_i_renderable_3_01_t_01_4"/>
+        <childnode refid="17" relation="public-inheritance">
+        </childnode>
+        <childnode refid="18" relation="public-inheritance">
+        </childnode>
+        <childnode refid="19" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>ShapeSprite</label>
+        <link refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_shape_sprite"/>
+        <childnode refid="14" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Lib/Components/Sprites/ShapeSprite.cs" line="40" column="1" bodyfile="C:/Users/marc-/Desktop/GameMAQ/GameMAQ/Lib/Components/Sprites/ShapeSprite.cs" bodystart="39" bodyend="53"/>
+    <listofallmembers>
+      <member refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_shape_sprite_1a4bd02dc9ba0911818f8330eae09e0256" prot="public" virt="non-virtual"><scope>GameMAQ::Lib::Components::CircleSprite</scope><name>BorderColor</name></member>
+      <member refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_circle_sprite_1a3856d109f8fc9b2a0403604696d44dee" prot="public" virt="non-virtual"><scope>GameMAQ::Lib::Components::CircleSprite</scope><name>CircleSprite</name></member>
+      <member refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_custom_sprite_1a9c20153102764aaf0abae51aec74c10f" prot="public" virt="virtual"><scope>GameMAQ::Lib::Components::CircleSprite</scope><name>Draw</name></member>
+      <member refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_custom_sprite_1a7faf03d1e4ca9924380c76dd04db254c" prot="public" virt="non-virtual"><scope>GameMAQ::Lib::Components::CircleSprite</scope><name>Drawer</name></member>
+      <member refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_shape_sprite_1ab32199e271e25d426cce7807449cf566" prot="public" virt="non-virtual"><scope>GameMAQ::Lib::Components::CircleSprite</scope><name>FillColor</name></member>
+      <member refid="class_game_m_a_q_1_1_lib_1_1_component_1a07c0d337b2397308c910314aa3dd0cb9" prot="public" virt="non-virtual"><scope>GameMAQ::Lib::Components::CircleSprite</scope><name>GameObject</name></member>
+      <member refid="class_game_m_a_q_1_1_lib_1_1_component_1a0bc089df197426e68f8762b80586d0b3" prot="public" virt="virtual"><scope>GameMAQ::Lib::Components::CircleSprite</scope><name>Initialize</name></member>
+      <member refid="interface_game_m_a_q_1_1_lib_1_1_i_startable_3_01_t_01_4_1aaa4bd54fdf7e85f8652a2d2660274f0f" prot="public" virt="non-virtual" ambiguityscope="GameMAQ::Lib::IRenderable&lt; T &gt;."><scope>GameMAQ::Lib::Components::CircleSprite</scope><name>Initialize</name></member>
+      <member refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_circle_sprite_1acd775136b24066a546c1af461469d7fb" prot="public" virt="non-virtual"><scope>GameMAQ::Lib::Components::CircleSprite</scope><name>Radius</name></member>
+      <member refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_shape_sprite_1a202bf6044db6b1e1458782b6059ddc0b" prot="public" virt="non-virtual"><scope>GameMAQ::Lib::Components::CircleSprite</scope><name>ShapeSprite</name></member>
+      <member refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_circle_sprite_1acdd6b5195733d62388bbdb85a584b0d5" prot="public" virt="non-virtual"><scope>GameMAQ::Lib::Components::CircleSprite</scope><name>Sides</name></member>
+      <member refid="class_game_m_a_q_1_1_lib_1_1_component_1a3201308c2577598dbef9f5f237fdc3bf" prot="public" virt="virtual"><scope>GameMAQ::Lib::Components::CircleSprite</scope><name>Start</name></member>
+      <member refid="class_game_m_a_q_1_1_lib_1_1_components_1_1_shape_sprite_1ac75a7a886f24c7ae896fe5fe270ce64a" prot="public" virt="non-virtual"><scope>GameMAQ::Lib::Components::CircleSprite</scope><name>Thickness</name></member>
+      <member refid="class_game_m_a_q_1_1_lib_1_1_component_1a57b84a728bf31e18a630f6e8ceeb3984" prot="public" virt="virtual"><scope>GameMAQ::Lib::Components::CircleSprite</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
